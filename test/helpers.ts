@@ -1,8 +1,13 @@
 import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { FixtureSource, classifyAccount } from 'ledgertax-core';
-import type { FetchOptions, HistorySource, LedgerEvent, RawRecord } from 'ledgertax-core';
+import { FixtureSource, classifyAccount } from '@veronicdev/ledgertax-core';
+import type {
+  FetchOptions,
+  HistorySource,
+  LedgerEvent,
+  RawRecord,
+} from '@veronicdev/ledgertax-core';
 
 /** Folder with the recorded testnet fixtures (copied from ledgertax-core). */
 export const FIXTURE_DIR = join(dirname(fileURLToPath(import.meta.url)), 'fixtures');

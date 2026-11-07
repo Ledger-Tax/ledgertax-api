@@ -8,12 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@veronicdev/ledgertax-core':
+        specifier: ^0.1.0
+        version: 0.1.0(debug@4.4.3)
       fastify:
         specifier: ^5.12.8
         version: 5.12.8
-      ledgertax-core:
-        specifier: file:vendor/ledgertax-core-0.0.0.tgz
-        version: file:vendor/ledgertax-core-0.0.0.tgz(debug@4.4.3)
       zod:
         specifier: ^4.6.7
         version: 4.6.7
@@ -659,6 +659,10 @@ packages:
     resolution: {integrity: sha512-SB8xqipSzZHUePCCLNeYxqnxq83X61/qzNhjQGbTfjxGZIeOEP7tBgWYX05Tcd6CgE02WdTJnh5b8kMZJ/+bnQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
+  '@veronicdev/ledgertax-core@0.1.0':
+    resolution: {integrity: sha512-DTkoPNTHtct788wN8kE7cVrMyEai8XnwzGkTmtHZrS0zwbGBGwKwJjM/d4pxfh2hkdvIEYwbZh4TAOEm4jd9TA==}
+    engines: {node: '>=22.12.0'}
+
   '@vitest/mocker@5.1.0':
     resolution: {integrity: sha512-5umB9/jlWcqVS6fsrFmv5Gdnpu6wAUio/lEOwAmvB7v+lFo/IW2B9FhAD0p19GCULTgMzLCdUmuCDCnAzWgppQ==}
     peerDependencies:
@@ -1074,11 +1078,6 @@ packages:
 
   keyv@5.6.0:
     resolution: {integrity: sha512-CYDD3SOtsHtyXeEORYRx2qBtpDJFjRTGXUtmNEMGyzYOKj1TE3tycdlho7kA1Ufx9OYWZzg52QFBGALTirzDSw==}
-
-  ledgertax-core@file:vendor/ledgertax-core-0.0.0.tgz:
-    resolution: {integrity: sha512-lRgpJkX3v/QnfGg/aoDS4ZV4QjAhEA5gz9q2dArs8nZ17fGMcyQ0v8rE9aW587+ZxWHLQ3ddxEZlJ1R3OVCiRw==, tarball: file:vendor/ledgertax-core-0.0.0.tgz}
-    version: 0.0.0
-    engines: {node: '>=22.12.0'}
 
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
@@ -2056,6 +2055,14 @@ snapshots:
       '@typescript-eslint/types': 8.72.1
       eslint-visitor-keys: 5.0.1
 
+  '@veronicdev/ledgertax-core@0.1.0(debug@4.4.3)':
+    dependencies:
+      '@stellar/stellar-sdk': 17.4.0(debug@4.4.3)
+      zod: 4.6.7
+    transitivePeerDependencies:
+      - debug
+      - supports-color
+
   '@vitest/mocker@5.1.0(vite@8.3.5(@types/node@24.19.2)(esbuild@0.28.2))':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
@@ -2501,14 +2508,6 @@ snapshots:
   keyv@5.6.0:
     dependencies:
       '@keyv/serialize': 1.1.1
-
-  ledgertax-core@file:vendor/ledgertax-core-0.0.0.tgz(debug@4.4.3):
-    dependencies:
-      '@stellar/stellar-sdk': 17.4.0(debug@4.4.3)
-      zod: 4.6.7
-    transitivePeerDependencies:
-      - debug
-      - supports-color
 
   levn@0.4.1:
     dependencies:

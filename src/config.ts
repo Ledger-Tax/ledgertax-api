@@ -1,4 +1,4 @@
-import { LedgerTaxError } from 'ledgertax-core';
+import { LedgerTaxError } from '@veronicdev/ledgertax-core';
 import { z } from 'zod';
 
 /** Settings of the HTTP server. Network and endpoints always come from here, never from code. */

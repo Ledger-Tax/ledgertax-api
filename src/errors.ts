@@ -1,4 +1,4 @@
-import { LedgerTaxError } from 'ledgertax-core';
+import { LedgerTaxError } from '@veronicdev/ledgertax-core';
 
 /** The text is not valid CSV (for example an unterminated quote). */
 export class CsvSyntaxError extends LedgerTaxError {

@@ -9,7 +9,7 @@ ledgertax-api is the backend that calculates cost basis from user-supplied price
 You need Node.js 22.13 or newer (the cache uses the built-in `node:sqlite`) and [pnpm](https://pnpm.io).
 
 - `pnpm install --frozen-lockfile`
-- The package uses a committed tarball of `ledgertax-core` in `vendor/` until core is published; `pnpm core:refresh` rebuilds it from a checkout of the core repository.
+- Core comes from npm (`@veronicdev/ledgertax-core`). To test against an unreleased core change, install a tarball made with `pnpm pack` in the core repository, and do not commit it.
 
 ## Check your work
 

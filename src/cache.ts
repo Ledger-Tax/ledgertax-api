@@ -1,6 +1,6 @@
 import type { DatabaseSync } from 'node:sqlite';
-import { rawRecordSchema } from 'ledgertax-core';
-import type { FetchOptions, HistorySource, RawRecord } from 'ledgertax-core';
+import { rawRecordSchema } from '@veronicdev/ledgertax-core';
+import type { FetchOptions, HistorySource, RawRecord } from '@veronicdev/ledgertax-core';
 
 /**
  * Store for PUBLIC chain history only: raw records per (source, address). It has no place for labels,

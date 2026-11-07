@@ -1,4 +1,4 @@
-import { AccountNotFoundError } from 'ledgertax-core';
+import { AccountNotFoundError } from '@veronicdev/ledgertax-core';
 
 export { AccountNotFoundError };
 

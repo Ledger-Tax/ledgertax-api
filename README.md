@@ -58,6 +58,6 @@ Liquidity pools, Soroban contract events, linked addresses, cost-basis methods o
 pnpm install --frozen-lockfile && pnpm lint && pnpm typecheck && pnpm test && pnpm build
 ```
 
-Until `ledgertax-core` is published, this package uses a **committed tarball** in `vendor/` so it builds on its own. After changing core, refresh it from the monorepo with `pnpm core:refresh` and then `pnpm install`; once core is published, replace the `file:` dependency by a version range and delete `vendor/` and `scripts/refresh-core.mjs`.
+Core comes from npm as [`@veronicdev/ledgertax-core`](https://www.npmjs.com/package/@veronicdev/ledgertax-core) (range `^0.1.0`). To try an unreleased core change, run `pnpm pack` in the core repository and `pnpm add <path-to-the-tgz>` here, and do not commit that change; once the change is released, raise the range instead.
 
 Test fixtures in `test/fixtures/` are real testnet history copied from core (see the README there).
