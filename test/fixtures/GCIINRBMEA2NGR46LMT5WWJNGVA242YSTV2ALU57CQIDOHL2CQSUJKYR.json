@@ -1,0 +1,2296 @@
+[
+  {
+    "source": "horizon-testnet",
+    "ref": "568445431ff579472fe5ca07e3ff7766fc5a9727abcd7593532b000b1ebbb5e1",
+    "cursor": "transaction:24019441394126848",
+    "kind": "transaction",
+    "time": "2026-11-06T17:25:51Z",
+    "ledger": 5592462,
+    "data": {
+      "id": "568445431ff579472fe5ca07e3ff7766fc5a9727abcd7593532b000b1ebbb5e1",
+      "paging_token": "24019441394126848",
+      "successful": true,
+      "hash": "568445431ff579472fe5ca07e3ff7766fc5a9727abcd7593532b000b1ebbb5e1",
+      "ledger": 5592462,
+      "created_at": "2026-11-06T17:25:51Z",
+      "source_account": "GCLYASKLBKHDDT2U76BWALNMCC3BNO4A5LUZRANRZ4VQZITAJAHOCEQW",
+      "source_account_sequence": "23789630579015704",
+      "fee_account": "GCLYASKLBKHDDT2U76BWALNMCC3BNO4A5LUZRANRZ4VQZITAJAHOCEQW",
+      "fee_charged": "100",
+      "max_fee": "1000000",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACXgElLCo4xz1T/g2AtrBC2FruA6umYgbHPKwyiYEgO4QAPQkAAVISLAAAAGAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAABB90WssODNIgi6BHveqzxTRmIpvAFRyVNM+Hm2GVuCcAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABdIdugAAAAAAAAAAAJgSA7hAAAAQD0EHy72KMdXJM3P1FvWIjQugReQ2c5vsouvdRDQnSlFulDSrmGn19I+ywl1s8GHJaBg40yVK8BfI2WXw64V6g6GVuCcAAAAQEpnYHYS2fO0kqEHGVAW6Y81tMzDLqFAgLFxA9+eqgPn+eJ/vpTGCLnpp5uNpJ0SwsCEEwiR92acuZQrEHj8SQo=",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVH/AAAAAAAAAACXgElLCo4xz1T/g2AtrBC2FruA6umYgbHPKwyiYEgO4QAAAAA8M1eEAFSEiwAAABcAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVUf8AAAAAau371AAAAAAAAAABAFVVjgAAAAAAAAAAl4BJSwqOMc9U/4NgLawQtha7gOrpmIGxzysMomBIDuEAAAAAPDNXIABUhIsAAAAXAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVH/AAAAAGrt+9QAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "PQQfLvYox1ckzc/UW9YiNC6BF5DZzm+yi691ENCdKUW6UNKuYafX0j7LCXWzwYcloGDjTJUrwF8jZZfDrhXqDg==",
+        "SmdgdhLZ87SSoQcZUBbpjzW0zMMuoUCAsXED356qA+f54n++lMYIuemnm42knRLCwIQTCJH3Zpy5lCsQePxJCg=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019441394126849",
+    "cursor": "operation:24019441394126849",
+    "kind": "operation",
+    "time": "2026-11-06T17:25:51Z",
+    "ledger": 5592462,
+    "data": {
+      "id": "24019441394126849",
+      "paging_token": "24019441394126849",
+      "transaction_successful": true,
+      "source_account": "GAIH3ULLFQ4DGSECF2AR555KZ4KNDGEKN4AFI4SU2M7B43MGK3QJZNSR",
+      "type": "create_account",
+      "type_i": 0,
+      "created_at": "2026-11-06T17:25:51Z",
+      "transaction_hash": "568445431ff579472fe5ca07e3ff7766fc5a9727abcd7593532b000b1ebbb5e1",
+      "starting_balance": "10000.0000000",
+      "funder": "GAIH3ULLFQ4DGSECF2AR555KZ4KNDGEKN4AFI4SU2M7B43MGK3QJZNSR",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019441394126849-0000000001",
+    "cursor": "effect:24019441394126849-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:25:51Z",
+    "ledger": 5592462,
+    "data": {
+      "id": "0024019441394126849-0000000001",
+      "paging_token": "24019441394126849-1",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_created",
+      "type_i": 0,
+      "created_at": "2026-11-06T17:25:51Z",
+      "starting_balance": "10000.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019441394126849-0000000002",
+    "cursor": "effect:24019441394126849-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:25:51Z",
+    "ledger": 5592462,
+    "data": {
+      "id": "0024019441394126849-0000000002",
+      "paging_token": "24019441394126849-2",
+      "account": "GAIH3ULLFQ4DGSECF2AR555KZ4KNDGEKN4AFI4SU2M7B43MGK3QJZNSR",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:25:51Z",
+      "asset_type": "native",
+      "amount": "10000.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019441394126849-0000000003",
+    "cursor": "effect:24019441394126849-3",
+    "kind": "effect",
+    "time": "2026-11-06T17:25:51Z",
+    "ledger": 5592462,
+    "data": {
+      "id": "0024019441394126849-0000000003",
+      "paging_token": "24019441394126849-3",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "signer_created",
+      "type_i": 10,
+      "created_at": "2026-11-06T17:25:51Z",
+      "weight": 1,
+      "public_key": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "key": ""
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "c4a90e15ba0674dd0856c3f75800f8ca6a639f967cab77593b1503c294dc99fd",
+    "cursor": "transaction:24019471458918400",
+    "kind": "transaction",
+    "time": "2026-11-06T17:26:26Z",
+    "ledger": 5592469,
+    "data": {
+      "memo": "=1+1 test",
+      "memo_bytes": "PTErMSB0ZXN0",
+      "id": "c4a90e15ba0674dd0856c3f75800f8ca6a639f967cab77593b1503c294dc99fd",
+      "paging_token": "24019471458918400",
+      "successful": true,
+      "hash": "c4a90e15ba0674dd0856c3f75800f8ca6a639f967cab77593b1503c294dc99fd",
+      "ledger": 5592469,
+      "created_at": "2026-11-06T17:26:26Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122753",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAAAQAAAAEAAAAAAAAAAAAAAABq7g39AAAAAQAAAAk9MSsxIHRlc3QAAAAAAAABAAAAAAAAAAEAAAAA5+Fg21FW3p61KuuUe6uNSaphxfXyAqHodcqxo3/kE+sAAAAAAAAAADuaygAAAAAAAAAAAXoUJUQAAABA7VqhX+gTLGJGiyCayGbyCaT/M9pnlgq+61mL04n0EgHJYpBGA/BW4fUxnvPEVp7JK4SBH/GVtOBk7hmM+AHnDw==",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWOAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABdIdugAAFVVjgAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAVVWVAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABdIduecAFVVjgAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA==",
+      "memo_type": "text",
+      "signatures": [
+        "7VqhX+gTLGJGiyCayGbyCaT/M9pnlgq+61mL04n0EgHJYpBGA/BW4fUxnvPEVp7JK4SBH/GVtOBk7hmM+AHnDw=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986045"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019471458918401",
+    "cursor": "operation:24019471458918401",
+    "kind": "operation",
+    "time": "2026-11-06T17:26:26Z",
+    "ledger": 5592469,
+    "data": {
+      "id": "24019471458918401",
+      "paging_token": "24019471458918401",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "payment",
+      "type_i": 1,
+      "created_at": "2026-11-06T17:26:26Z",
+      "transaction_hash": "c4a90e15ba0674dd0856c3f75800f8ca6a639f967cab77593b1503c294dc99fd",
+      "asset_type": "native",
+      "from": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "to": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "amount": "100.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019471458918401-0000000001",
+    "cursor": "effect:24019471458918401-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:26Z",
+    "ledger": 5592469,
+    "data": {
+      "id": "0024019471458918401-0000000001",
+      "paging_token": "24019471458918401-1",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "account_credited",
+      "type_i": 2,
+      "created_at": "2026-11-06T17:26:26Z",
+      "asset_type": "native",
+      "amount": "100.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019471458918401-0000000002",
+    "cursor": "effect:24019471458918401-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:26Z",
+    "ledger": 5592469,
+    "data": {
+      "id": "0024019471458918401-0000000002",
+      "paging_token": "24019471458918401-2",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:26:26Z",
+      "asset_type": "native",
+      "amount": "100.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "45b4cd4ec541c28b9d4cc254cbb2c9050ea0eb2945580555c817c10bbe6da697",
+    "cursor": "transaction:24019475753869312",
+    "kind": "transaction",
+    "time": "2026-11-06T17:26:31Z",
+    "ledger": 5592470,
+    "data": {
+      "memo": "hello, \"quoted\"",
+      "memo_bytes": "aGVsbG8sICJxdW90ZWQi",
+      "id": "45b4cd4ec541c28b9d4cc254cbb2c9050ea0eb2945580555c817c10bbe6da697",
+      "paging_token": "24019475753869312",
+      "successful": true,
+      "hash": "45b4cd4ec541c28b9d4cc254cbb2c9050ea0eb2945580555c817c10bbe6da697",
+      "ledger": 5592470,
+      "created_at": "2026-11-06T17:26:31Z",
+      "source_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "source_account_sequence": "24019454279024641",
+      "fee_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAAGQAVVWRAAAAAQAAAAEAAAAAAAAAAAAAAABq7g4AAAAAAQAAAA9oZWxsbywgInF1b3RlZCIAAAAAAQAAAAAAAAABAAAAAJCGxCwgNNNHnlsn21ktNUGuaxKddAXTvxQQNx16FCVEAAAAAAAAAAAdzWUAAAAAAAAAAAF/5BPrAAAAQCvZbFThwfYpHxgAqfc6onGqFBgBe+86+v5Y7dKHsI1Bv2NryVw7KoJ/U3hG9Eu0sKChAV3zcNBamMQUP/EDTgE=",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWVAAAAAAAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAABeEEbIAAFVVkQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAVVWWAAAAAAAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAABeEEbGcAFVVkQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA==",
+      "memo_type": "text",
+      "signatures": [
+        "K9lsVOHB9ikfGACp9zqicaoUGAF77zr6/ljt0oewjUG/Y2vJXDsqgn9TeEb0S7SwoKEBXfNw0FqYxBQ/8QNOAQ=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986048"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019475753869313",
+    "cursor": "operation:24019475753869313",
+    "kind": "operation",
+    "time": "2026-11-06T17:26:31Z",
+    "ledger": 5592470,
+    "data": {
+      "id": "24019475753869313",
+      "paging_token": "24019475753869313",
+      "transaction_successful": true,
+      "source_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "payment",
+      "type_i": 1,
+      "created_at": "2026-11-06T17:26:31Z",
+      "transaction_hash": "45b4cd4ec541c28b9d4cc254cbb2c9050ea0eb2945580555c817c10bbe6da697",
+      "asset_type": "native",
+      "from": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "to": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "amount": "50.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019475753869313-0000000001",
+    "cursor": "effect:24019475753869313-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:31Z",
+    "ledger": 5592470,
+    "data": {
+      "id": "0024019475753869313-0000000001",
+      "paging_token": "24019475753869313-1",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_credited",
+      "type_i": 2,
+      "created_at": "2026-11-06T17:26:31Z",
+      "asset_type": "native",
+      "amount": "50.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019475753869313-0000000002",
+    "cursor": "effect:24019475753869313-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:31Z",
+    "ledger": 5592470,
+    "data": {
+      "id": "0024019475753869313-0000000002",
+      "paging_token": "24019475753869313-2",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:26:31Z",
+      "asset_type": "native",
+      "amount": "50.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "c5dec905599a59888d5efa8f5e6ab5b1ca6b5f9581d89afa18bd3cbf880389ab",
+    "cursor": "transaction:24019480048861184",
+    "kind": "transaction",
+    "time": "2026-11-06T17:26:36Z",
+    "ledger": 5592471,
+    "data": {
+      "id": "c5dec905599a59888d5efa8f5e6ab5b1ca6b5f9581d89afa18bd3cbf880389ab",
+      "paging_token": "24019480048861184",
+      "successful": true,
+      "hash": "c5dec905599a59888d5efa8f5e6ab5b1ca6b5f9581d89afa18bd3cbf880389ab",
+      "ledger": 5592471,
+      "created_at": "2026-11-06T17:26:36Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122754",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAAAgAAAAEAAAAAAAAAAAAAAABq7g4EAAAAAAAAAAEAAAAAAAAAAAAAAADbN53Xi2D3uW43xorO1h/sMj1wpWJ/gVF5Dxqa+VQsRwAAAAAL68IAAAAAAAAAAAF6FCVEAAAAQCSzb31mTYYzPtLtRHUXtKCwqAeX+jYluXbo1BrM+cF+KUnWeqhCR+r0zgegYMpZ8TT/SWw98WW4Jn1Dx1C1SAA=",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWWAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABcqqYKcAFVVjgAAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVZUAAAAAau4NwgAAAAAAAAABAFVVlwAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXKqmCOABVVY4AAAABAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWVAAAAAGruDcIAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "JLNvfWZNhjM+0u1EdRe0oLCoB5f6NiW5dujUGsz5wX4pSdZ6qEJH6vTOB6BgylnxNP9JbD3xZbgmfUPHULVIAA=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986052"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019480048861185",
+    "cursor": "operation:24019480048861185",
+    "kind": "operation",
+    "time": "2026-11-06T17:26:36Z",
+    "ledger": 5592471,
+    "data": {
+      "id": "24019480048861185",
+      "paging_token": "24019480048861185",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "create_account",
+      "type_i": 0,
+      "created_at": "2026-11-06T17:26:36Z",
+      "transaction_hash": "c5dec905599a59888d5efa8f5e6ab5b1ca6b5f9581d89afa18bd3cbf880389ab",
+      "starting_balance": "20.0000000",
+      "funder": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "account": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019480048861185-0000000001",
+    "cursor": "effect:24019480048861185-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:36Z",
+    "ledger": 5592471,
+    "data": {
+      "id": "0024019480048861185-0000000001",
+      "paging_token": "24019480048861185-1",
+      "account": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX",
+      "type": "account_created",
+      "type_i": 0,
+      "created_at": "2026-11-06T17:26:36Z",
+      "starting_balance": "20.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019480048861185-0000000002",
+    "cursor": "effect:24019480048861185-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:36Z",
+    "ledger": 5592471,
+    "data": {
+      "id": "0024019480048861185-0000000002",
+      "paging_token": "24019480048861185-2",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:26:36Z",
+      "asset_type": "native",
+      "amount": "20.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019480048861185-0000000003",
+    "cursor": "effect:24019480048861185-3",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:36Z",
+    "ledger": 5592471,
+    "data": {
+      "id": "0024019480048861185-0000000003",
+      "paging_token": "24019480048861185-3",
+      "account": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX",
+      "type": "signer_created",
+      "type_i": 10,
+      "created_at": "2026-11-06T17:26:36Z",
+      "weight": 1,
+      "public_key": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX",
+      "key": ""
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "1e512ea968c970777f4fc3158a51fc90593e92a1015b68b89779425bb73e47f7",
+    "cursor": "transaction:24019484343803904",
+    "kind": "transaction",
+    "time": "2026-11-06T17:26:41Z",
+    "ledger": 5592472,
+    "data": {
+      "id": "1e512ea968c970777f4fc3158a51fc90593e92a1015b68b89779425bb73e47f7",
+      "paging_token": "24019484343803904",
+      "successful": true,
+      "hash": "1e512ea968c970777f4fc3158a51fc90593e92a1015b68b89779425bb73e47f7",
+      "ledger": 5592472,
+      "created_at": "2026-11-06T17:26:41Z",
+      "source_account": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX",
+      "source_account_sequence": "24019480048828417",
+      "fee_account": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAADbN53Xi2D3uW43xorO1h/sMj1wpWJ/gVF5Dxqa+VQsRwAAAGQAVVWXAAAAAQAAAAEAAAAAAAAAAAAAAABq7g4KAAAAAAAAAAEAAAAAAAAACAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAAAAAAAB+VQsRwAAAEDsAVK5dGWrmu8k5SQ8BxU5ZHeF05hAP4kYhIOVVrj6VZnTf/OhoA2NE0SInVJbVrRzqxphunlvF3I94dQRGM4F",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAAL68GcAAAAAA==",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWXAAAAAAAAAADbN53Xi2D3uW43xorO1h/sMj1wpWJ/gVF5Dxqa+VQsRwAAAAAL68IAAFVVlwAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAVVWYAAAAAAAAAADbN53Xi2D3uW43xorO1h/sMj1wpWJ/gVF5Dxqa+VQsRwAAAAAL68GcAFVVlwAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA==",
+      "memo_type": "none",
+      "signatures": [
+        "7AFSuXRlq5rvJOUkPAcVOWR3hdOYQD+JGISDlVa4+lWZ03/zoaANjRNEiJ1SW1a0c6saYbp5bxdyPeHUERjOBQ=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986058"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019484343803905",
+    "cursor": "operation:24019484343803905",
+    "kind": "operation",
+    "time": "2026-11-06T17:26:41Z",
+    "ledger": 5592472,
+    "data": {
+      "id": "24019484343803905",
+      "paging_token": "24019484343803905",
+      "transaction_successful": true,
+      "source_account": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX",
+      "type": "account_merge",
+      "type_i": 8,
+      "created_at": "2026-11-06T17:26:41Z",
+      "transaction_hash": "1e512ea968c970777f4fc3158a51fc90593e92a1015b68b89779425bb73e47f7",
+      "account": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX",
+      "into": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019484343803905-0000000001",
+    "cursor": "effect:24019484343803905-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:41Z",
+    "ledger": 5592472,
+    "data": {
+      "id": "0024019484343803905-0000000001",
+      "paging_token": "24019484343803905-1",
+      "account": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:26:41Z",
+      "asset_type": "native",
+      "amount": "19.9999900"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019484343803905-0000000002",
+    "cursor": "effect:24019484343803905-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:41Z",
+    "ledger": 5592472,
+    "data": {
+      "id": "0024019484343803905-0000000002",
+      "paging_token": "24019484343803905-2",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_credited",
+      "type_i": 2,
+      "created_at": "2026-11-06T17:26:41Z",
+      "asset_type": "native",
+      "amount": "19.9999900"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019484343803905-0000000003",
+    "cursor": "effect:24019484343803905-3",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:41Z",
+    "ledger": 5592472,
+    "data": {
+      "id": "0024019484343803905-0000000003",
+      "paging_token": "24019484343803905-3",
+      "account": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX",
+      "type": "account_removed",
+      "type_i": 1,
+      "created_at": "2026-11-06T17:26:41Z"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "eef86ad2ff996a9883dec8a404c833f80a635970f3e595a488432cb0a862f59d",
+    "cursor": "transaction:24019488638775296",
+    "kind": "transaction",
+    "time": "2026-11-06T17:26:46Z",
+    "ledger": 5592473,
+    "data": {
+      "id": "eef86ad2ff996a9883dec8a404c833f80a635970f3e595a488432cb0a862f59d",
+      "paging_token": "24019488638775296",
+      "successful": true,
+      "hash": "eef86ad2ff996a9883dec8a404c833f80a635970f3e595a488432cb0a862f59d",
+      "ledger": 5592473,
+      "created_at": "2026-11-06T17:26:46Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122755",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAAAwAAAAEAAAAAAAAAAAAAAABq7g4PAAAAAAAAAAEAAAAAAAAABgAAAAFURVNUAAAAABMwXCW56+dgJE1cnE4nSXBIqYvz3Ts86/Fw6xwNTnSKf/////////8AAAAAAAAAAXoUJUQAAABAGYqSrLId7/NPqIqIikHMh8tOTyptMPK20dVb5gUK740qctXa2IZgjJ/zqvkvQCEc8aWHZgUH1GgIcAeZU5yxDQ==",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAGAAAAAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWYAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABcqqYHUAFVVjgAAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVZcAAAAAau4NzAAAAAAAAAABAFVVmQAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXKqmBcABVVY4AAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWXAAAAAGruDcwAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "GYqSrLId7/NPqIqIikHMh8tOTyptMPK20dVb5gUK740qctXa2IZgjJ/zqvkvQCEc8aWHZgUH1GgIcAeZU5yxDQ=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986063"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019488638775297",
+    "cursor": "operation:24019488638775297",
+    "kind": "operation",
+    "time": "2026-11-06T17:26:46Z",
+    "ledger": 5592473,
+    "data": {
+      "id": "24019488638775297",
+      "paging_token": "24019488638775297",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "change_trust",
+      "type_i": 6,
+      "created_at": "2026-11-06T17:26:46Z",
+      "transaction_hash": "eef86ad2ff996a9883dec8a404c833f80a635970f3e595a488432cb0a862f59d",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "TEST",
+      "asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "limit": "922337203685.4775807",
+      "trustee": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "trustor": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019488638775297-0000000001",
+    "cursor": "effect:24019488638775297-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:46Z",
+    "ledger": 5592473,
+    "data": {
+      "id": "0024019488638775297-0000000001",
+      "paging_token": "24019488638775297-1",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "trustline_created",
+      "type_i": 20,
+      "created_at": "2026-11-06T17:26:46Z",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "TEST",
+      "asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "limit": "922337203685.4775807"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "7bcde8f34639272f024d42b77f65eb4e225b5a09e67abf9f9f2c5ba99f0d3b95",
+    "cursor": "transaction:24019497228726272",
+    "kind": "transaction",
+    "time": "2026-11-06T17:26:56Z",
+    "ledger": 5592475,
+    "data": {
+      "id": "7bcde8f34639272f024d42b77f65eb4e225b5a09e67abf9f9f2c5ba99f0d3b95",
+      "paging_token": "24019497228726272",
+      "successful": true,
+      "hash": "7bcde8f34639272f024d42b77f65eb4e225b5a09e67abf9f9f2c5ba99f0d3b95",
+      "ledger": 5592475,
+      "created_at": "2026-11-06T17:26:56Z",
+      "source_account": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "source_account_sequence": "24019467163926529",
+      "fee_account": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAAATMFwluevnYCRNXJxOJ0lwSKmL8907POvxcOscDU50igAAAGQAVVWUAAAAAQAAAAEAAAAAAAAAAAAAAABq7g4ZAAAAAAAAAAEAAAAAAAAAAQAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAAFURVNUAAAAABMwXCW56+dgJE1cnE4nSXBIqYvz3Ts86/Fw6xwNTnSKAAAAAlQL5AAAAAAAAAAAAQ1OdIoAAABAYuK0i6tYJZF+J2va/zvOJUqV1GFRu6YMfYhKJMx7rBN4FjWYifOuqRDSqrssXI6HwiRbmsEx3Z9Iy93EMjIcAQ==",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWUAAAAAAAAAAATMFwluevnYCRNXJxOJ0lwSKmL8907POvxcOscDU50igAAABdIdugAAFVVlAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAVVWbAAAAAAAAAAATMFwluevnYCRNXJxOJ0lwSKmL8907POvxcOscDU50igAAABdIduecAFVVlAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA==",
+      "memo_type": "none",
+      "signatures": [
+        "YuK0i6tYJZF+J2va/zvOJUqV1GFRu6YMfYhKJMx7rBN4FjWYifOuqRDSqrssXI6HwiRbmsEx3Z9Iy93EMjIcAQ=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986073"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019497228726273",
+    "cursor": "operation:24019497228726273",
+    "kind": "operation",
+    "time": "2026-11-06T17:26:56Z",
+    "ledger": 5592475,
+    "data": {
+      "id": "24019497228726273",
+      "paging_token": "24019497228726273",
+      "transaction_successful": true,
+      "source_account": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "type": "payment",
+      "type_i": 1,
+      "created_at": "2026-11-06T17:26:56Z",
+      "transaction_hash": "7bcde8f34639272f024d42b77f65eb4e225b5a09e67abf9f9f2c5ba99f0d3b95",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "TEST",
+      "asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "from": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "to": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "amount": "1000.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019497228726273-0000000001",
+    "cursor": "effect:24019497228726273-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:56Z",
+    "ledger": 5592475,
+    "data": {
+      "id": "0024019497228726273-0000000001",
+      "paging_token": "24019497228726273-1",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_credited",
+      "type_i": 2,
+      "created_at": "2026-11-06T17:26:56Z",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "TEST",
+      "asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "amount": "1000.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019497228726273-0000000002",
+    "cursor": "effect:24019497228726273-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:26:56Z",
+    "ledger": 5592475,
+    "data": {
+      "id": "0024019497228726273-0000000002",
+      "paging_token": "24019497228726273-2",
+      "account": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:26:56Z",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "TEST",
+      "asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "amount": "1000.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "fd50cbc98cfb002f52508edfd8934bdb5f60cceb189c36179c10c7e9b3d239d4",
+    "cursor": "transaction:24019505818636288",
+    "kind": "transaction",
+    "time": "2026-11-06T17:27:06Z",
+    "ledger": 5592477,
+    "data": {
+      "id": "fd50cbc98cfb002f52508edfd8934bdb5f60cceb189c36179c10c7e9b3d239d4",
+      "paging_token": "24019505818636288",
+      "successful": true,
+      "hash": "fd50cbc98cfb002f52508edfd8934bdb5f60cceb189c36179c10c7e9b3d239d4",
+      "ledger": 5592477,
+      "created_at": "2026-11-06T17:27:06Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122756",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAABAAAAAEAAAAAAAAAAAAAAABq7g4iAAAAAAAAAAEAAAAAAAAAAwAAAAFURVNUAAAAABMwXCW56+dgJE1cnE4nSXBIqYvz3Ts86/Fw6xwNTnSKAAAAAAAAAAA7msoAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAABehQlRAAAAEB4RF/OCapZSsnvav0dv9ME2Neon5gVZk8zIUO86TMGogn7EZDomeUeJti5U0WpUXiDtH2V5Fpi78wlE9Q35WAK",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAJCGxCwgNNNHnlsn21ktNUGuaxKddAXTvxQQNx16FCVEAAAAAAAOciYAAAABVEVTVAAAAAATMFwluevnYCRNXJxOJ0lwSKmL8907POvxcOscDU50igAAAAAAAAAAO5rKAAAAAAIAAAABAAAAAAAAAAAAAAAA",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWZAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABcqqYFwAFVVjgAAAAMAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVZkAAAAAau4N1gAAAAAAAAABAFVVnQAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXKqmBDABVVY4AAAADAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWZAAAAAGruDdYAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "eERfzgmqWUrJ72r9Hb/TBNjXqJ+YFWZPMyFDvOkzBqIJ+xGQ6JnlHibYuVNFqVF4g7R9leRaYu/MJRPUN+VgCg=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986082"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019505818636289",
+    "cursor": "operation:24019505818636289",
+    "kind": "operation",
+    "time": "2026-11-06T17:27:06Z",
+    "ledger": 5592477,
+    "data": {
+      "id": "24019505818636289",
+      "paging_token": "24019505818636289",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "manage_sell_offer",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:27:06Z",
+      "transaction_hash": "fd50cbc98cfb002f52508edfd8934bdb5f60cceb189c36179c10c7e9b3d239d4",
+      "amount": "100.0000000",
+      "price": "2.0000000",
+      "price_r": {
+        "n": 2,
+        "d": 1
+      },
+      "buying_asset_type": "native",
+      "selling_asset_type": "credit_alphanum4",
+      "selling_asset_code": "TEST",
+      "selling_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "offer_id": "0"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "d1398a7bf73414467e2df8bcbdac175789b58ca1fbbb2eacb11d208ddaf88a99",
+    "cursor": "transaction:24019510113607680",
+    "kind": "transaction",
+    "time": "2026-11-06T17:27:11Z",
+    "ledger": 5592478,
+    "data": {
+      "id": "d1398a7bf73414467e2df8bcbdac175789b58ca1fbbb2eacb11d208ddaf88a99",
+      "paging_token": "24019510113607680",
+      "successful": true,
+      "hash": "d1398a7bf73414467e2df8bcbdac175789b58ca1fbbb2eacb11d208ddaf88a99",
+      "ledger": 5592478,
+      "created_at": "2026-11-06T17:27:11Z",
+      "source_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "source_account_sequence": "24019454279024643",
+      "fee_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAAGQAVVWRAAAAAwAAAAEAAAAAAAAAAAAAAABq7g4oAAAAAAAAAAEAAAAAAAAADAAAAAAAAAABVEVTVAAAAAATMFwluevnYCRNXJxOJ0lwSKmL8907POvxcOscDU50igAAAAAX14QAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAABf+QT6wAAAEBhX9OmOVFDFGVKUleEf0p77ZY8PDMa+OhrWyD2dn73fse9Bw1wpu5jMp5t+OL3VY8jvhMSDnVvjk1tfTXPHkYL",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAMAAAAAAAAAAEAAAABAAAAAJCGxCwgNNNHnlsn21ktNUGuaxKddAXTvxQQNx16FCVEAAAAAAAOciYAAAABVEVTVAAAAAATMFwluevnYCRNXJxOJ0lwSKmL8907POvxcOscDU50igAAAAAX14QAAAAAAAAAAAAvrwgAAAAAAgAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWaAAAAAAAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAABdmREw4AFVVkQAAAAIAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVZoAAAAAau4N2wAAAAAAAAABAFVVngAAAAAAAAAA5+Fg21FW3p61KuuUe6uNSaphxfXyAqHodcqxo3/kE+sAAAAXZkRL1ABVVZEAAAACAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWaAAAAAGruDdsAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "YV/TpjlRQxRlSlJXhH9Ke+2WPDwzGvjoa1sg9nZ+937HvQcNcKbuYzKebfji91WPI74TEg51b45NbX01zx5GCw=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986088"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019510113607681",
+    "cursor": "operation:24019510113607681",
+    "kind": "operation",
+    "time": "2026-11-06T17:27:11Z",
+    "ledger": 5592478,
+    "data": {
+      "id": "24019510113607681",
+      "paging_token": "24019510113607681",
+      "transaction_successful": true,
+      "source_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "manage_buy_offer",
+      "type_i": 12,
+      "created_at": "2026-11-06T17:27:11Z",
+      "transaction_hash": "d1398a7bf73414467e2df8bcbdac175789b58ca1fbbb2eacb11d208ddaf88a99",
+      "amount": "40.0000000",
+      "price": "2.0000000",
+      "price_r": {
+        "n": 2,
+        "d": 1
+      },
+      "buying_asset_type": "credit_alphanum4",
+      "buying_asset_code": "TEST",
+      "buying_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "selling_asset_type": "native",
+      "offer_id": "0"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019510113607681-0000000001",
+    "cursor": "effect:24019510113607681-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:11Z",
+    "ledger": 5592478,
+    "data": {
+      "id": "0024019510113607681-0000000001",
+      "paging_token": "24019510113607681-1",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "trade",
+      "type_i": 33,
+      "created_at": "2026-11-06T17:27:11Z",
+      "seller": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "offer_id": "946726",
+      "sold_amount": "80.0000000",
+      "sold_asset_type": "native",
+      "bought_amount": "40.0000000",
+      "bought_asset_type": "credit_alphanum4",
+      "bought_asset_code": "TEST",
+      "bought_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019510113607681-0000000002",
+    "cursor": "effect:24019510113607681-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:11Z",
+    "ledger": 5592478,
+    "data": {
+      "id": "0024019510113607681-0000000002",
+      "paging_token": "24019510113607681-2",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "trade",
+      "type_i": 33,
+      "created_at": "2026-11-06T17:27:11Z",
+      "seller": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "offer_id": "946726",
+      "sold_amount": "40.0000000",
+      "sold_asset_type": "credit_alphanum4",
+      "sold_asset_code": "TEST",
+      "sold_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "bought_amount": "80.0000000",
+      "bought_asset_type": "native"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "15a4dcea123d874fba9ddac64e71a32650c1ec3ed86d8193bc6ddab164d397a2",
+    "cursor": "transaction:24019518703583232",
+    "kind": "transaction",
+    "time": "2026-11-06T17:27:21Z",
+    "ledger": 5592480,
+    "data": {
+      "id": "15a4dcea123d874fba9ddac64e71a32650c1ec3ed86d8193bc6ddab164d397a2",
+      "paging_token": "24019518703583232",
+      "successful": true,
+      "hash": "15a4dcea123d874fba9ddac64e71a32650c1ec3ed86d8193bc6ddab164d397a2",
+      "ledger": 5592480,
+      "created_at": "2026-11-06T17:27:21Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122757",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAABQAAAAEAAAAAAAAAAAAAAABq7g4yAAAAAAAAAAEAAAAAAAAADAAAAAAAAAABVEVTVAAAAAATMFwluevnYCRNXJxOJ0lwSKmL8907POvxcOscDU50igAAAAAL68IAAAAAAwAAAAIAAAAAAAAAAAAAAAAAAAABehQlRAAAAEB+Kyduq6KaLtFpAVx2Mk+N/reHidRphpBIhAv0a4sUEVSBJ3t7qjc7mi3EQVkOBO58eqxec8lyeOomccBn/3MP",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAMAAAAAAAAAAEAAAABAAAAAOfhYNtRVt6etSrrlHurjUmqYcX18gKh6HXKsaN/5BPrAAAAAAAOcicAAAABVEVTVAAAAAATMFwluevnYCRNXJxOJ0lwSKmL8907POvxcOscDU50igAAAAAL68IAAAAAAAAAAAAR4aMAAAAAAgAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWeAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABdaWIkMAFVVjgAAAAQAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAEeGjAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVZ0AAAAAau4N6gAAAAAAAAABAFVVoAAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXWliIqABVVY4AAAAEAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAABHhowAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWdAAAAAGruDeoAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "fisnbquimi7RaQFcdjJPjf63h4nUaYaQSIQL9GuLFBFUgSd7e6o3O5otxEFZDgTufHqsXnPJcnjqJnHAZ/9zDw=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986098"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019518703583233",
+    "cursor": "operation:24019518703583233",
+    "kind": "operation",
+    "time": "2026-11-06T17:27:21Z",
+    "ledger": 5592480,
+    "data": {
+      "id": "24019518703583233",
+      "paging_token": "24019518703583233",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "manage_buy_offer",
+      "type_i": 12,
+      "created_at": "2026-11-06T17:27:21Z",
+      "transaction_hash": "15a4dcea123d874fba9ddac64e71a32650c1ec3ed86d8193bc6ddab164d397a2",
+      "amount": "20.0000000",
+      "price": "1.5000000",
+      "price_r": {
+        "n": 3,
+        "d": 2
+      },
+      "buying_asset_type": "credit_alphanum4",
+      "buying_asset_code": "TEST",
+      "buying_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "selling_asset_type": "native",
+      "offer_id": "0"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019518703583233-0000000001",
+    "cursor": "effect:24019518703583233-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:21Z",
+    "ledger": 5592480,
+    "data": {
+      "id": "0024019518703583233-0000000001",
+      "paging_token": "24019518703583233-1",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "trade",
+      "type_i": 33,
+      "created_at": "2026-11-06T17:27:21Z",
+      "seller": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "offer_id": "946727",
+      "sold_amount": "30.0000000",
+      "sold_asset_type": "native",
+      "bought_amount": "20.0000000",
+      "bought_asset_type": "credit_alphanum4",
+      "bought_asset_code": "TEST",
+      "bought_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019518703583233-0000000002",
+    "cursor": "effect:24019518703583233-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:21Z",
+    "ledger": 5592480,
+    "data": {
+      "id": "0024019518703583233-0000000002",
+      "paging_token": "24019518703583233-2",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "trade",
+      "type_i": 33,
+      "created_at": "2026-11-06T17:27:21Z",
+      "seller": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "offer_id": "946727",
+      "sold_amount": "20.0000000",
+      "sold_asset_type": "credit_alphanum4",
+      "sold_asset_code": "TEST",
+      "sold_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "bought_amount": "30.0000000",
+      "bought_asset_type": "native"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "f4a7c5d1e1065b40e8522c813c35f7f4f14a9760cf242d5e5a93fbd1dee84699",
+    "cursor": "transaction:24019527293476864",
+    "kind": "transaction",
+    "time": "2026-11-06T17:27:31Z",
+    "ledger": 5592482,
+    "data": {
+      "id": "f4a7c5d1e1065b40e8522c813c35f7f4f14a9760cf242d5e5a93fbd1dee84699",
+      "paging_token": "24019527293476864",
+      "successful": true,
+      "hash": "f4a7c5d1e1065b40e8522c813c35f7f4f14a9760cf242d5e5a93fbd1dee84699",
+      "ledger": 5592482,
+      "created_at": "2026-11-06T17:27:31Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122758",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAABgAAAAEAAAAAAAAAAAAAAABq7g48AAAAAAAAAAEAAAAAAAAADQAAAAAAAAAABfXhAAAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAAAFURVNUAAAAABMwXCW56+dgJE1cnE4nSXBIqYvz3Ts86/Fw6xwNTnSKAAAAAACYloAAAAAAAAAAAAAAAAF6FCVEAAAAQGWeXTTs2AyMwIbjpXRCNxatUDj+Kd8iSS4OQXFseLcMN6cJNQD8z/HwrZqtjkQSJ3eIhO2Zy7PX2fq0N2FH6wo=",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAANAAAAAAAAAAEAAAABAAAAABMwXCW56+dgJE1cnE4nSXBIqYvz3Ts86/Fw6xwNTnSKAAAAAAAOcioAAAABVEVTVAAAAAATMFwluevnYCRNXJxOJ0lwSKmL8907POvxcOscDU50igAAAAAF9eEAAAAAAAAAAAAF9eEAAAAAAOfhYNtRVt6etSrrlHurjUmqYcX18gKh6HXKsaN/5BPrAAAAAVRFU1QAAAAAEzBcJbnr52AkTVycTidJcEipi/PdOzzr8XDrHA1OdIoAAAAABfXhAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWgAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABdIduWoAFVVjgAAAAUAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAEeGjAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVaAAAAAAau4N+QAAAAAAAAABAFVVogAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXSHblRABVVY4AAAAFAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAABHhowAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWgAAAAAGruDfkAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "ZZ5dNOzYDIzAhuOldEI3Fq1QOP4p3yJJLg5BcWx4tww3pwk1APzP8fCtmq2ORBInd4iE7ZnLs9fZ+rQ3YUfrCg=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986108"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019527293476865",
+    "cursor": "operation:24019527293476865",
+    "kind": "operation",
+    "time": "2026-11-06T17:27:31Z",
+    "ledger": 5592482,
+    "data": {
+      "id": "24019527293476865",
+      "paging_token": "24019527293476865",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "path_payment_strict_send",
+      "type_i": 13,
+      "created_at": "2026-11-06T17:27:31Z",
+      "transaction_hash": "f4a7c5d1e1065b40e8522c813c35f7f4f14a9760cf242d5e5a93fbd1dee84699",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "TEST",
+      "asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "from": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "to": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "amount": "10.0000000",
+      "path": [],
+      "source_amount": "10.0000000",
+      "destination_min": "1.0000000",
+      "source_asset_type": "native"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019527293476865-0000000001",
+    "cursor": "effect:24019527293476865-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:31Z",
+    "ledger": 5592482,
+    "data": {
+      "id": "0024019527293476865-0000000001",
+      "paging_token": "24019527293476865-1",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "account_credited",
+      "type_i": 2,
+      "created_at": "2026-11-06T17:27:31Z",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "TEST",
+      "asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "amount": "10.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019527293476865-0000000002",
+    "cursor": "effect:24019527293476865-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:31Z",
+    "ledger": 5592482,
+    "data": {
+      "id": "0024019527293476865-0000000002",
+      "paging_token": "24019527293476865-2",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:27:31Z",
+      "asset_type": "native",
+      "amount": "10.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019527293476865-0000000003",
+    "cursor": "effect:24019527293476865-3",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:31Z",
+    "ledger": 5592482,
+    "data": {
+      "id": "0024019527293476865-0000000003",
+      "paging_token": "24019527293476865-3",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "trade",
+      "type_i": 33,
+      "created_at": "2026-11-06T17:27:31Z",
+      "seller": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "offer_id": "946730",
+      "sold_amount": "10.0000000",
+      "sold_asset_type": "native",
+      "bought_amount": "10.0000000",
+      "bought_asset_type": "credit_alphanum4",
+      "bought_asset_code": "TEST",
+      "bought_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019527293476865-0000000004",
+    "cursor": "effect:24019527293476865-4",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:31Z",
+    "ledger": 5592482,
+    "data": {
+      "id": "0024019527293476865-0000000004",
+      "paging_token": "24019527293476865-4",
+      "account": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "type": "trade",
+      "type_i": 33,
+      "created_at": "2026-11-06T17:27:31Z",
+      "seller": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "offer_id": "946730",
+      "sold_amount": "10.0000000",
+      "sold_asset_type": "credit_alphanum4",
+      "sold_asset_code": "TEST",
+      "sold_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "bought_amount": "10.0000000",
+      "bought_asset_type": "native"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "39dedd14e88554657d4bfd8faee08486ea4690aea65699df779e15f46d06c949",
+    "cursor": "transaction:24019531588440064",
+    "kind": "transaction",
+    "time": "2026-11-06T17:27:36Z",
+    "ledger": 5592483,
+    "data": {
+      "id": "39dedd14e88554657d4bfd8faee08486ea4690aea65699df779e15f46d06c949",
+      "paging_token": "24019531588440064",
+      "successful": true,
+      "hash": "39dedd14e88554657d4bfd8faee08486ea4690aea65699df779e15f46d06c949",
+      "ledger": 5592483,
+      "created_at": "2026-11-06T17:27:36Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122759",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAABwAAAAEAAAAAAAAAAAAAAABq7g5BAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAEeGjAAAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAAAFURVNUAAAAABMwXCW56+dgJE1cnE4nSXBIqYvz3Ts86/Fw6xwNTnSKAAAAAAL68IAAAAAAAAAAAAAAAAF6FCVEAAAAQD9CxYKxynhEYuu5sCeoHiJtGr4VLOiWzE0AoGa5jimQKsb7oFiDjhdRDxKvs07M8IoQz0bz8aUauI714Gf2aAM=",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAEAAAABAAAAABMwXCW56+dgJE1cnE4nSXBIqYvz3Ts86/Fw6xwNTnSKAAAAAAAOcioAAAABVEVTVAAAAAATMFwluevnYCRNXJxOJ0lwSKmL8907POvxcOscDU50igAAAAAC+vCAAAAAAAAAAAAC+vCAAAAAAOfhYNtRVt6etSrrlHurjUmqYcX18gKh6HXKsaN/5BPrAAAAAVRFU1QAAAAAEzBcJbnr52AkTVycTidJcEipi/PdOzzr8XDrHA1OdIoAAAAAAvrwgAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWiAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABdCgQREAFVVjgAAAAYAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAEeGjAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVaIAAAAAau4OAwAAAAAAAAABAFVVowAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXQoED4ABVVY4AAAAGAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAABHhowAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWiAAAAAGruDgMAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "P0LFgrHKeERi67mwJ6geIm0avhUs6JbMTQCgZrmOKZAqxvugWIOOF1EPEq+zTszwihDPRvPxpRq4jvXgZ/ZoAw=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986113"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019531588440065",
+    "cursor": "operation:24019531588440065",
+    "kind": "operation",
+    "time": "2026-11-06T17:27:36Z",
+    "ledger": 5592483,
+    "data": {
+      "id": "24019531588440065",
+      "paging_token": "24019531588440065",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "path_payment_strict_receive",
+      "type_i": 2,
+      "created_at": "2026-11-06T17:27:36Z",
+      "transaction_hash": "39dedd14e88554657d4bfd8faee08486ea4690aea65699df779e15f46d06c949",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "TEST",
+      "asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "from": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "to": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "amount": "5.0000000",
+      "path": [],
+      "source_amount": "5.0000000",
+      "source_max": "30.0000000",
+      "source_asset_type": "native"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019531588440065-0000000001",
+    "cursor": "effect:24019531588440065-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:36Z",
+    "ledger": 5592483,
+    "data": {
+      "id": "0024019531588440065-0000000001",
+      "paging_token": "24019531588440065-1",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "account_credited",
+      "type_i": 2,
+      "created_at": "2026-11-06T17:27:36Z",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "TEST",
+      "asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "amount": "5.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019531588440065-0000000002",
+    "cursor": "effect:24019531588440065-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:36Z",
+    "ledger": 5592483,
+    "data": {
+      "id": "0024019531588440065-0000000002",
+      "paging_token": "24019531588440065-2",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:27:36Z",
+      "asset_type": "native",
+      "amount": "5.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019531588440065-0000000003",
+    "cursor": "effect:24019531588440065-3",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:36Z",
+    "ledger": 5592483,
+    "data": {
+      "id": "0024019531588440065-0000000003",
+      "paging_token": "24019531588440065-3",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "trade",
+      "type_i": 33,
+      "created_at": "2026-11-06T17:27:36Z",
+      "seller": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "offer_id": "946730",
+      "sold_amount": "5.0000000",
+      "sold_asset_type": "native",
+      "bought_amount": "5.0000000",
+      "bought_asset_type": "credit_alphanum4",
+      "bought_asset_code": "TEST",
+      "bought_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019531588440065-0000000004",
+    "cursor": "effect:24019531588440065-4",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:36Z",
+    "ledger": 5592483,
+    "data": {
+      "id": "0024019531588440065-0000000004",
+      "paging_token": "24019531588440065-4",
+      "account": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "type": "trade",
+      "type_i": 33,
+      "created_at": "2026-11-06T17:27:36Z",
+      "seller": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "offer_id": "946730",
+      "sold_amount": "5.0000000",
+      "sold_asset_type": "credit_alphanum4",
+      "sold_asset_code": "TEST",
+      "sold_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "bought_amount": "5.0000000",
+      "bought_asset_type": "native"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0310e5c50ba7cf3a835c42a65f6e321ff4f4c06f942375446db7284cccbf9bd2",
+    "cursor": "transaction:24019535883411456",
+    "kind": "transaction",
+    "time": "2026-11-06T17:27:41Z",
+    "ledger": 5592484,
+    "data": {
+      "id": "0310e5c50ba7cf3a835c42a65f6e321ff4f4c06f942375446db7284cccbf9bd2",
+      "paging_token": "24019535883411456",
+      "successful": true,
+      "hash": "0310e5c50ba7cf3a835c42a65f6e321ff4f4c06f942375446db7284cccbf9bd2",
+      "ledger": 5592484,
+      "created_at": "2026-11-06T17:27:41Z",
+      "source_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "source_account_sequence": "24019454279024645",
+      "fee_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAAGQAVVWRAAAABQAAAAEAAAAAAAAAAAAAAABq7g5GAAAAAAAAAAEAAAAAAAAADQAAAAAAAAAABfXhAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAAFURVNUAAAAABMwXCW56+dgJE1cnE4nSXBIqYvz3Ts86/Fw6xwNTnSKAAAAAACYloAAAAAAAAAAAAAAAAF/5BPrAAAAQBBmGy5h1Ia4LNtMFGWmWhheXgPvGEns1KQ7joNYSP+NcJWWVWcXjOoxCbfigTddsgludD6NEWmTK5DhPzu2ugI=",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAANAAAAAAAAAAEAAAABAAAAABMwXCW56+dgJE1cnE4nSXBIqYvz3Ts86/Fw6xwNTnSKAAAAAAAOcioAAAABVEVTVAAAAAATMFwluevnYCRNXJxOJ0lwSKmL8907POvxcOscDU50igAAAAAF9eEAAAAAAAAAAAAF9eEAAAAAAJCGxCwgNNNHnlsn21ktNUGuaxKddAXTvxQQNx16FCVEAAAAAVRFU1QAAAAAEzBcJbnr52AkTVycTidJcEipi/PdOzzr8XDrHA1OdIoAAAAABfXhAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWgAAAAAAAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAABdIduZwAFVVkQAAAAQAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAABrSdIAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVZ8AAAAAau4N9AAAAAAAAAABAFVVpAAAAAAAAAAA5+Fg21FW3p61KuuUe6uNSaphxfXyAqHodcqxo3/kE+sAAAAXSHbmDABVVZEAAAAEAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAa0nSAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWfAAAAAGruDfQAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "EGYbLmHUhrgs20wUZaZaGF5eA+8YSezUpDuOg1hI/41wlZZVZxeM6jEJt+KBN12yCW50Po0RaZMrkOE/O7a6Ag=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986118"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019535883411457",
+    "cursor": "operation:24019535883411457",
+    "kind": "operation",
+    "time": "2026-11-06T17:27:41Z",
+    "ledger": 5592484,
+    "data": {
+      "id": "24019535883411457",
+      "paging_token": "24019535883411457",
+      "transaction_successful": true,
+      "source_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "path_payment_strict_send",
+      "type_i": 13,
+      "created_at": "2026-11-06T17:27:41Z",
+      "transaction_hash": "0310e5c50ba7cf3a835c42a65f6e321ff4f4c06f942375446db7284cccbf9bd2",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "TEST",
+      "asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "from": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "to": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "amount": "10.0000000",
+      "path": [],
+      "source_amount": "10.0000000",
+      "destination_min": "1.0000000",
+      "source_asset_type": "native"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019535883411457-0000000001",
+    "cursor": "effect:24019535883411457-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:41Z",
+    "ledger": 5592484,
+    "data": {
+      "id": "0024019535883411457-0000000001",
+      "paging_token": "24019535883411457-1",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_credited",
+      "type_i": 2,
+      "created_at": "2026-11-06T17:27:41Z",
+      "asset_type": "credit_alphanum4",
+      "asset_code": "TEST",
+      "asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "amount": "10.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019535883411457-0000000002",
+    "cursor": "effect:24019535883411457-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:41Z",
+    "ledger": 5592484,
+    "data": {
+      "id": "0024019535883411457-0000000002",
+      "paging_token": "24019535883411457-2",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:27:41Z",
+      "asset_type": "native",
+      "amount": "10.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019535883411457-0000000003",
+    "cursor": "effect:24019535883411457-3",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:41Z",
+    "ledger": 5592484,
+    "data": {
+      "id": "0024019535883411457-0000000003",
+      "paging_token": "24019535883411457-3",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "trade",
+      "type_i": 33,
+      "created_at": "2026-11-06T17:27:41Z",
+      "seller": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "offer_id": "946730",
+      "sold_amount": "10.0000000",
+      "sold_asset_type": "native",
+      "bought_amount": "10.0000000",
+      "bought_asset_type": "credit_alphanum4",
+      "bought_asset_code": "TEST",
+      "bought_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019535883411457-0000000004",
+    "cursor": "effect:24019535883411457-4",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:41Z",
+    "ledger": 5592484,
+    "data": {
+      "id": "0024019535883411457-0000000004",
+      "paging_token": "24019535883411457-4",
+      "account": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "type": "trade",
+      "type_i": 33,
+      "created_at": "2026-11-06T17:27:41Z",
+      "seller": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "offer_id": "946730",
+      "sold_amount": "10.0000000",
+      "sold_asset_type": "credit_alphanum4",
+      "sold_asset_code": "TEST",
+      "sold_asset_issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+      "bought_amount": "10.0000000",
+      "bought_asset_type": "native"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "4c49108ac29ed54d288573e142055920a26bff9c58478a2312116e07da4b3ce2",
+    "cursor": "transaction:24019540178378752",
+    "kind": "transaction",
+    "time": "2026-11-06T17:27:46Z",
+    "ledger": 5592485,
+    "data": {
+      "id": "4c49108ac29ed54d288573e142055920a26bff9c58478a2312116e07da4b3ce2",
+      "paging_token": "24019540178378752",
+      "successful": true,
+      "hash": "4c49108ac29ed54d288573e142055920a26bff9c58478a2312116e07da4b3ce2",
+      "ledger": 5592485,
+      "created_at": "2026-11-06T17:27:46Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122760",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAACAAAAAEAAAAAAAAAAAAAAABq7g5LAAAAAAAAAAEAAAAAAAAADgAAAAAAAAAAAvrwgAAAAAEAAAAAAAAAAOfhYNtRVt6etSrrlHurjUmqYcX18gKh6HXKsaN/5BPrAAAAAAAAAAAAAAABehQlRAAAAED/aqAjhYyJSde7bFU0ek5RbW8atskxACtXH3Nv9xPQuHccdE/NixwVGLP/ynBIEGuTa3PhIETkd2Z2Vzn58UsK",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAOAAAAAAAAAAAd5fIay9Q1HZrh+aMdnZeE6xPZd7IOPLQik2UUdlLB/QAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWjAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABc/hhNgAFVVjgAAAAcAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAEeGjAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVaMAAAAAau4OCAAAAAAAAAABAFVVpQAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXP4YS/ABVVY4AAAAHAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAABHhowAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWjAAAAAGruDggAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "/2qgI4WMiUnXu2xVNHpOUW1vGrbJMQArVx9zb/cT0Lh3HHRPzYscFRiz/8pwSBBrk2tz4SBE5Hdmdlc5+fFLCg=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986123"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019540178378753",
+    "cursor": "operation:24019540178378753",
+    "kind": "operation",
+    "time": "2026-11-06T17:27:46Z",
+    "ledger": 5592485,
+    "data": {
+      "id": "24019540178378753",
+      "paging_token": "24019540178378753",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "create_claimable_balance",
+      "type_i": 14,
+      "created_at": "2026-11-06T17:27:46Z",
+      "transaction_hash": "4c49108ac29ed54d288573e142055920a26bff9c58478a2312116e07da4b3ce2",
+      "sponsor": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "asset": "native",
+      "amount": "5.0000000",
+      "claimants": [
+        {
+          "destination": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+          "predicate": {
+            "unconditional": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019540178378753-0000000001",
+    "cursor": "effect:24019540178378753-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:46Z",
+    "ledger": 5592485,
+    "data": {
+      "id": "0024019540178378753-0000000001",
+      "paging_token": "24019540178378753-1",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "claimable_balance_created",
+      "type_i": 50,
+      "created_at": "2026-11-06T17:27:46Z",
+      "asset": "native",
+      "balance_id": "000000001de5f21acbd4351d9ae1f9a31d9d9784eb13d977b20e3cb4229365147652c1fd",
+      "amount": "5.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019540178378753-0000000002",
+    "cursor": "effect:24019540178378753-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:46Z",
+    "ledger": 5592485,
+    "data": {
+      "id": "0024019540178378753-0000000002",
+      "paging_token": "24019540178378753-2",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "claimable_balance_claimant_created",
+      "type_i": 51,
+      "created_at": "2026-11-06T17:27:46Z",
+      "asset": "native",
+      "balance_id": "000000001de5f21acbd4351d9ae1f9a31d9d9784eb13d977b20e3cb4229365147652c1fd",
+      "amount": "5.0000000",
+      "predicate": {
+        "unconditional": true
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019540178378753-0000000003",
+    "cursor": "effect:24019540178378753-3",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:46Z",
+    "ledger": 5592485,
+    "data": {
+      "id": "0024019540178378753-0000000003",
+      "paging_token": "24019540178378753-3",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:27:46Z",
+      "asset_type": "native",
+      "amount": "5.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019540178378753-0000000004",
+    "cursor": "effect:24019540178378753-4",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:46Z",
+    "ledger": 5592485,
+    "data": {
+      "id": "0024019540178378753-0000000004",
+      "paging_token": "24019540178378753-4",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "claimable_balance_sponsorship_created",
+      "type_i": 69,
+      "created_at": "2026-11-06T17:27:46Z",
+      "balance_id": "000000001de5f21acbd4351d9ae1f9a31d9d9784eb13d977b20e3cb4229365147652c1fd",
+      "sponsor": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "783c4ba831352b5cd9f40d7ee9fa80a5be84fe6a4c961ee6d6dacf3b468ac02c",
+    "cursor": "transaction:24019548768329728",
+    "kind": "transaction",
+    "time": "2026-11-06T17:27:56Z",
+    "ledger": 5592487,
+    "data": {
+      "id": "783c4ba831352b5cd9f40d7ee9fa80a5be84fe6a4c961ee6d6dacf3b468ac02c",
+      "paging_token": "24019548768329728",
+      "successful": true,
+      "hash": "783c4ba831352b5cd9f40d7ee9fa80a5be84fe6a4c961ee6d6dacf3b468ac02c",
+      "ledger": 5592487,
+      "created_at": "2026-11-06T17:27:56Z",
+      "source_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "source_account_sequence": "24019454279024647",
+      "fee_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAAGQAVVWRAAAABwAAAAEAAAAAAAAAAAAAAABq7g5VAAAAAAAAAAEAAAAAAAAADgAAAAAAAAAABCwdgAAAAAEAAAAAAAAAAJCGxCwgNNNHnlsn21ktNUGuaxKddAXTvxQQNx16FCVEAAAAAAAAAAAAAAABf+QT6wAAAECD2jYNtGSZeuahJF2aKALenyo3C1KG56yp3v7eLf1Tlp6rCqu09EUha7XCbuDuy8GAa/LHeq2rjajmWC5EhwAH",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAOAAAAAAAAAACC1vEkFPb6gPEkrdCasqenuK8Do+v7NlWQcQ7PHfkPvAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWmAAAAAAAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAABdFe/UoAFVVkQAAAAYAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAABrSdIAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVaYAAAAAau4OFwAAAAAAAAABAFVVpwAAAAAAAAAA5+Fg21FW3p61KuuUe6uNSaphxfXyAqHodcqxo3/kE+sAAAAXRXv0xABVVZEAAAAGAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAa0nSAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWmAAAAAGruDhcAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "g9o2DbRkmXrmoSRdmigC3p8qNwtShuesqd7+3i39U5aeqwqrtPRFIWu1wm7g7svBgGvyx3qtq42o5lguRIcABw=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986133"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019548768329729",
+    "cursor": "operation:24019548768329729",
+    "kind": "operation",
+    "time": "2026-11-06T17:27:56Z",
+    "ledger": 5592487,
+    "data": {
+      "id": "24019548768329729",
+      "paging_token": "24019548768329729",
+      "transaction_successful": true,
+      "source_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "create_claimable_balance",
+      "type_i": 14,
+      "created_at": "2026-11-06T17:27:56Z",
+      "transaction_hash": "783c4ba831352b5cd9f40d7ee9fa80a5be84fe6a4c961ee6d6dacf3b468ac02c",
+      "sponsor": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "asset": "native",
+      "amount": "7.0000000",
+      "claimants": [
+        {
+          "destination": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+          "predicate": {
+            "unconditional": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019548768329729-0000000001",
+    "cursor": "effect:24019548768329729-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:56Z",
+    "ledger": 5592487,
+    "data": {
+      "id": "0024019548768329729-0000000001",
+      "paging_token": "24019548768329729-1",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "claimable_balance_created",
+      "type_i": 50,
+      "created_at": "2026-11-06T17:27:56Z",
+      "asset": "native",
+      "balance_id": "0000000082d6f12414f6fa80f124add09ab2a7a7b8af03a3ebfb365590710ecf1df90fbc",
+      "amount": "7.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019548768329729-0000000002",
+    "cursor": "effect:24019548768329729-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:56Z",
+    "ledger": 5592487,
+    "data": {
+      "id": "0024019548768329729-0000000002",
+      "paging_token": "24019548768329729-2",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "claimable_balance_claimant_created",
+      "type_i": 51,
+      "created_at": "2026-11-06T17:27:56Z",
+      "asset": "native",
+      "balance_id": "0000000082d6f12414f6fa80f124add09ab2a7a7b8af03a3ebfb365590710ecf1df90fbc",
+      "amount": "7.0000000",
+      "predicate": {
+        "unconditional": true
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019548768329729-0000000003",
+    "cursor": "effect:24019548768329729-3",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:56Z",
+    "ledger": 5592487,
+    "data": {
+      "id": "0024019548768329729-0000000003",
+      "paging_token": "24019548768329729-3",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:27:56Z",
+      "asset_type": "native",
+      "amount": "7.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019548768329729-0000000004",
+    "cursor": "effect:24019548768329729-4",
+    "kind": "effect",
+    "time": "2026-11-06T17:27:56Z",
+    "ledger": 5592487,
+    "data": {
+      "id": "0024019548768329729-0000000004",
+      "paging_token": "24019548768329729-4",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "claimable_balance_sponsorship_created",
+      "type_i": 69,
+      "created_at": "2026-11-06T17:27:56Z",
+      "balance_id": "0000000082d6f12414f6fa80f124add09ab2a7a7b8af03a3ebfb365590710ecf1df90fbc",
+      "sponsor": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "98f354a3286767e905d85ec60ed6849fce1104664a6107324a04fcc14041a1ca",
+    "cursor": "transaction:24019553063288832",
+    "kind": "transaction",
+    "time": "2026-11-06T17:28:01Z",
+    "ledger": 5592488,
+    "data": {
+      "id": "98f354a3286767e905d85ec60ed6849fce1104664a6107324a04fcc14041a1ca",
+      "paging_token": "24019553063288832",
+      "successful": true,
+      "hash": "98f354a3286767e905d85ec60ed6849fce1104664a6107324a04fcc14041a1ca",
+      "ledger": 5592488,
+      "created_at": "2026-11-06T17:28:01Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122761",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAACQAAAAEAAAAAAAAAAAAAAABq7g5aAAAAAAAAAAEAAAAAAAAADwAAAACC1vEkFPb6gPEkrdCasqenuK8Do+v7NlWQcQ7PHfkPvAAAAAAAAAABehQlRAAAAEAd0EOGxERbWrab9AZTptgDiOIgpTKVyyTdV2SBhidsxbhuL7BTVwlMoO+OLypqUJQHVCoEXMLD4IbuKMhBqTIK",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAPAAAAAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWmAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABc8iyJ8AFVVjgAAAAgAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAEeGjAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVaUAAAAAau4OEgAAAAAAAAABAFVVqAAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXPIsiGABVVY4AAAAIAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAABHhowAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWlAAAAAGruDhIAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "HdBDhsREW1q2m/QGU6bYA4jiIKUylcsk3VdkgYYnbMW4bi+wU1cJTKDvji8qalCUB1QqBFzCw+CG7ijIQakyCg=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986138"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019553063288833",
+    "cursor": "operation:24019553063288833",
+    "kind": "operation",
+    "time": "2026-11-06T17:28:01Z",
+    "ledger": 5592488,
+    "data": {
+      "id": "24019553063288833",
+      "paging_token": "24019553063288833",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "claim_claimable_balance",
+      "type_i": 15,
+      "created_at": "2026-11-06T17:28:01Z",
+      "transaction_hash": "98f354a3286767e905d85ec60ed6849fce1104664a6107324a04fcc14041a1ca",
+      "balance_id": "0000000082d6f12414f6fa80f124add09ab2a7a7b8af03a3ebfb365590710ecf1df90fbc",
+      "claimant": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019553063288833-0000000001",
+    "cursor": "effect:24019553063288833-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:28:01Z",
+    "ledger": 5592488,
+    "data": {
+      "id": "0024019553063288833-0000000001",
+      "paging_token": "24019553063288833-1",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "claimable_balance_claimed",
+      "type_i": 52,
+      "created_at": "2026-11-06T17:28:01Z",
+      "asset": "native",
+      "balance_id": "0000000082d6f12414f6fa80f124add09ab2a7a7b8af03a3ebfb365590710ecf1df90fbc",
+      "amount": "7.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019553063288833-0000000002",
+    "cursor": "effect:24019553063288833-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:28:01Z",
+    "ledger": 5592488,
+    "data": {
+      "id": "0024019553063288833-0000000002",
+      "paging_token": "24019553063288833-2",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_credited",
+      "type_i": 2,
+      "created_at": "2026-11-06T17:28:01Z",
+      "asset_type": "native",
+      "amount": "7.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019553063288833-0000000003",
+    "cursor": "effect:24019553063288833-3",
+    "kind": "effect",
+    "time": "2026-11-06T17:28:01Z",
+    "ledger": 5592488,
+    "data": {
+      "id": "0024019553063288833-0000000003",
+      "paging_token": "24019553063288833-3",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "claimable_balance_sponsorship_removed",
+      "type_i": 71,
+      "created_at": "2026-11-06T17:28:01Z",
+      "balance_id": "0000000082d6f12414f6fa80f124add09ab2a7a7b8af03a3ebfb365590710ecf1df90fbc",
+      "former_sponsor": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "1c90f660549c46ca4c69afb2c8500643f12d919df437a7f9eb1f710ff99caef3",
+    "cursor": "transaction:24019557358264320",
+    "kind": "transaction",
+    "time": "2026-11-06T17:28:06Z",
+    "ledger": 5592489,
+    "data": {
+      "id": "1c90f660549c46ca4c69afb2c8500643f12d919df437a7f9eb1f710ff99caef3",
+      "paging_token": "24019557358264320",
+      "successful": true,
+      "hash": "1c90f660549c46ca4c69afb2c8500643f12d919df437a7f9eb1f710ff99caef3",
+      "ledger": 5592489,
+      "created_at": "2026-11-06T17:28:06Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122762",
+      "fee_account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "fee_charged": "200",
+      "max_fee": "400",
+      "operation_count": 1,
+      "envelope_xdr": "AAAABQAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAAAAAAAGQAAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAACgAAAAEAAAAAAAAAAAAAAABq7g5fAAAAAAAAAAEAAAAAAAAAAQAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAAAAAAAAAAJiWgAAAAAAAAAABehQlRAAAAECA1sda+MfP0bccM1BFSTuVHLOgeGA5C/JFmOOnXm4GbrWiULrELBQtLOpjz+IfsWxE5KM3oqyb1eG3AjAEjm4MAAAAAAAAAAF/5BPrAAAAQEBC9bExkdPcvd9dKdeNYqoWIQFsMFv7xiBmLGd9kYJd6gFD4MISbB1p8ulJ9FNU3XfyJZaiFIC1lweLweXfOQo=",
+      "result_xdr": "AAAAAAAAAMgAAAABbeiKOY1tlUTCYlrf50TRdT9MxuVDEZMiriqx9h2tQhIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWoAAAAAAAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAABdBT9dEAFVVkQAAAAcAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAABrSdIAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVacAAAAAau4OHAAAAAAAAAABAFVVqQAAAAAAAAAA5+Fg21FW3p61KuuUe6uNSaphxfXyAqHodcqxo3/kE+sAAAAXQU/WfABVVZEAAAAHAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAa0nSAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWnAAAAAGruDhwAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "QEL1sTGR09y9310p141iqhYhAWwwW/vGIGYsZ32Rgl3qAUPgwhJsHWny6Un0U1Tdd/IllqIUgLWXB4vB5d85Cg=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986143"
+        }
+      },
+      "fee_bump_transaction": {
+        "hash": "1c90f660549c46ca4c69afb2c8500643f12d919df437a7f9eb1f710ff99caef3",
+        "signatures": [
+          "QEL1sTGR09y9310p141iqhYhAWwwW/vGIGYsZ32Rgl3qAUPgwhJsHWny6Un0U1Tdd/IllqIUgLWXB4vB5d85Cg=="
+        ]
+      },
+      "inner_transaction": {
+        "hash": "6de88a398d6d9544c2625adfe744d1753f4cc6e543119322ae2ab1f61dad4212",
+        "signatures": [
+          "gNbHWvjHz9G3HDNQRUk7lRyzoHhgOQvyRZjjp15uBm61olC6xCwULSzqY8/iH7FsROSjN6Ksm9XhtwIwBI5uDA=="
+        ],
+        "max_fee": "100"
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019557358264321",
+    "cursor": "operation:24019557358264321",
+    "kind": "operation",
+    "time": "2026-11-06T17:28:06Z",
+    "ledger": 5592489,
+    "data": {
+      "id": "24019557358264321",
+      "paging_token": "24019557358264321",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "payment",
+      "type_i": 1,
+      "created_at": "2026-11-06T17:28:06Z",
+      "transaction_hash": "1c90f660549c46ca4c69afb2c8500643f12d919df437a7f9eb1f710ff99caef3",
+      "asset_type": "native",
+      "from": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "to": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "amount": "1.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019557358264321-0000000001",
+    "cursor": "effect:24019557358264321-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:28:06Z",
+    "ledger": 5592489,
+    "data": {
+      "id": "0024019557358264321-0000000001",
+      "paging_token": "24019557358264321-1",
+      "account": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "type": "account_credited",
+      "type_i": 2,
+      "created_at": "2026-11-06T17:28:06Z",
+      "asset_type": "native",
+      "amount": "1.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019557358264321-0000000002",
+    "cursor": "effect:24019557358264321-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:28:06Z",
+    "ledger": 5592489,
+    "data": {
+      "id": "0024019557358264321-0000000002",
+      "paging_token": "24019557358264321-2",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_debited",
+      "type_i": 3,
+      "created_at": "2026-11-06T17:28:06Z",
+      "asset_type": "native",
+      "amount": "1.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "5d1ed9d1fb93d5e58e220c54ce7f5a4578f83206c2edb3a8a48738a137fa4317",
+    "cursor": "transaction:24019561653223424",
+    "kind": "transaction",
+    "time": "2026-11-06T17:28:11Z",
+    "ledger": 5592490,
+    "data": {
+      "id": "5d1ed9d1fb93d5e58e220c54ce7f5a4578f83206c2edb3a8a48738a137fa4317",
+      "paging_token": "24019561653223424",
+      "successful": false,
+      "hash": "5d1ed9d1fb93d5e58e220c54ce7f5a4578f83206c2edb3a8a48738a137fa4317",
+      "ledger": 5592490,
+      "created_at": "2026-11-06T17:28:11Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122763",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAACwAAAAEAAAAAAAAAAAAAAABq7g5kAAAAAAAAAAEAAAAAAAAAAQAAAADn4WDbUVbenrUq65R7q41JqmHF9fICoeh1yrGjf+QT6wAAAAAAAAgvec2QAAAAAAAAAAABehQlRAAAAEDJAfGcBAvbcl4iu18OIOm7570XEikQPPXITN1tpaMHAXo/QMHanhV60PF+T/esLZLDa3hEAUPgsNpOgACK56UK",
+      "result_xdr": "AAAAAAAAAGT/////AAAAAQAAAAAAAAAB/////gAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWpAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABdAHqkYAFVVjgAAAAoAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAEeGjAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVakAAAAAau4OJgAAAAAAAAABAFVVqgAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXQB6otABVVY4AAAAKAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAABHhowAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWpAAAAAGruDiYAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "yQHxnAQL23JeIrtfDiDpu+e9FxIpEDz1yEzdbaWjBwF6P0DB2p4VetDxfk/3rC2Sw2t4RAFD4LDaToAAiuelCg=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986148"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019561653223425",
+    "cursor": "operation:24019561653223425",
+    "kind": "operation",
+    "time": "2026-11-06T17:28:11Z",
+    "ledger": 5592490,
+    "data": {
+      "id": "24019561653223425",
+      "paging_token": "24019561653223425",
+      "transaction_successful": false,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "payment",
+      "type_i": 1,
+      "created_at": "2026-11-06T17:28:11Z",
+      "transaction_hash": "5d1ed9d1fb93d5e58e220c54ce7f5a4578f83206c2edb3a8a48738a137fa4317",
+      "asset_type": "native",
+      "from": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "to": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+      "amount": "900000.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "c9a3d397b7605a2a1664f668515e4171056fd3490591dc90be7f0abdf23b4b7e",
+    "cursor": "transaction:24019565948194816",
+    "kind": "transaction",
+    "time": "2026-11-06T17:28:16Z",
+    "ledger": 5592491,
+    "data": {
+      "id": "c9a3d397b7605a2a1664f668515e4171056fd3490591dc90be7f0abdf23b4b7e",
+      "paging_token": "24019565948194816",
+      "successful": true,
+      "hash": "c9a3d397b7605a2a1664f668515e4171056fd3490591dc90be7f0abdf23b4b7e",
+      "ledger": 5592491,
+      "created_at": "2026-11-06T17:28:16Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122764",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAADAAAAAEAAAAAAAAAAAAAAABq7g5qAAAAAAAAAAEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAC2V4YW1wbGUuY29tAAAAAAAAAAAAAAAAAXoUJUQAAABAF+kqi9bo0ZN4IvOBVocRbeAme/2OVO7nyllS3hcEZp/Je01vuv5dk7yMUoq4M2ftnQ6JYgtglFzdIh9hKzISBA==",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAFAAAAAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWqAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABdAHqi0AFVVjgAAAAsAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAEeGjAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVaoAAAAAau4OKwAAAAAAAAABAFVVqwAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXQB6oUABVVY4AAAALAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAABHhowAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWqAAAAAGruDisAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "F+kqi9bo0ZN4IvOBVocRbeAme/2OVO7nyllS3hcEZp/Je01vuv5dk7yMUoq4M2ftnQ6JYgtglFzdIh9hKzISBA=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986154"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019565948194817",
+    "cursor": "operation:24019565948194817",
+    "kind": "operation",
+    "time": "2026-11-06T17:28:16Z",
+    "ledger": 5592491,
+    "data": {
+      "id": "24019565948194817",
+      "paging_token": "24019565948194817",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "set_options",
+      "type_i": 5,
+      "created_at": "2026-11-06T17:28:16Z",
+      "transaction_hash": "c9a3d397b7605a2a1664f668515e4171056fd3490591dc90be7f0abdf23b4b7e",
+      "home_domain": "example.com"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019565948194817-0000000001",
+    "cursor": "effect:24019565948194817-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:28:16Z",
+    "ledger": 5592491,
+    "data": {
+      "id": "0024019565948194817-0000000001",
+      "paging_token": "24019565948194817-1",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "account_home_domain_updated",
+      "type_i": 5,
+      "created_at": "2026-11-06T17:28:16Z",
+      "home_domain": "example.com"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "f9f2f05c519ccb9a5c272fc5c0456d855683846ef96a6ea39517665087ab8d38",
+    "cursor": "transaction:24019570243178496",
+    "kind": "transaction",
+    "time": "2026-11-06T17:28:21Z",
+    "ledger": 5592492,
+    "data": {
+      "id": "f9f2f05c519ccb9a5c272fc5c0456d855683846ef96a6ea39517665087ab8d38",
+      "paging_token": "24019570243178496",
+      "successful": true,
+      "hash": "f9f2f05c519ccb9a5c272fc5c0456d855683846ef96a6ea39517665087ab8d38",
+      "ledger": 5592492,
+      "created_at": "2026-11-06T17:28:21Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122765",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAADQAAAAEAAAAAAAAAAAAAAABq7g5uAAAAAAAAAAEAAAAAAAAABgAAAAMAAAAAAAAAAAAAAAFURVNUAAAAABMwXCW56+dgJE1cnE4nSXBIqYvz3Ts86/Fw6xwNTnSKAAAAHn//////////AAAAAAAAAAF6FCVEAAAAQPhAeGLEHFUpsSadT5j++zXOo2YSdDlnHyIeFIfXazkphXN4yygvECGJV8LcDN/JM0+qimy1iB4daLAV9Yxn/g8=",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAGAAAAAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWrAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABdAHqhQAFVVjgAAAAwAAAACAAAAAAAAAAAAAAALZXhhbXBsZS5jb20AAQAAAAAAAAAAAAABAAAAAEeGjAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVasAAAAAau4OMAAAAAAAAAABAFVVrAAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXQB6n7ABVVY4AAAAMAAAAAgAAAAAAAAAAAAAAC2V4YW1wbGUuY29tAAEAAAAAAAAAAAAAAQAAAABHhowAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWrAAAAAGruDjAAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "+EB4YsQcVSmxJp1PmP77Nc6jZhJ0OWcfIh4Uh9drOSmFc3jLKC8QIYlXwtwM38kzT6qKbLWIHh1osBX1jGf+Dw=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986158"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019570243178497",
+    "cursor": "operation:24019570243178497",
+    "kind": "operation",
+    "time": "2026-11-06T17:28:21Z",
+    "ledger": 5592492,
+    "data": {
+      "id": "24019570243178497",
+      "paging_token": "24019570243178497",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "change_trust",
+      "type_i": 6,
+      "created_at": "2026-11-06T17:28:21Z",
+      "transaction_hash": "f9f2f05c519ccb9a5c272fc5c0456d855683846ef96a6ea39517665087ab8d38",
+      "asset_type": "liquidity_pool_shares",
+      "liquidity_pool_id": "8add0f03b0f4fbbede611f559ac4fb5b4f2e55f6cdff39c2fe419f1294b83504",
+      "limit": "922337203685.4775807",
+      "trustor": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019570243178497-0000000001",
+    "cursor": "effect:24019570243178497-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:28:21Z",
+    "ledger": 5592492,
+    "data": {
+      "id": "0024019570243178497-0000000001",
+      "paging_token": "24019570243178497-1",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "trustline_created",
+      "type_i": 20,
+      "created_at": "2026-11-06T17:28:21Z",
+      "asset_type": "liquidity_pool_shares",
+      "liquidity_pool_id": "8add0f03b0f4fbbede611f559ac4fb5b4f2e55f6cdff39c2fe419f1294b83504",
+      "limit": "922337203685.4775807"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019570243178497-0000000002",
+    "cursor": "effect:24019570243178497-2",
+    "kind": "effect",
+    "time": "2026-11-06T17:28:21Z",
+    "ledger": 5592492,
+    "data": {
+      "id": "0024019570243178497-0000000002",
+      "paging_token": "24019570243178497-2",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "liquidity_pool_created",
+      "type_i": 93,
+      "created_at": "2026-11-06T17:28:21Z",
+      "liquidity_pool": {
+        "id": "8add0f03b0f4fbbede611f559ac4fb5b4f2e55f6cdff39c2fe419f1294b83504",
+        "fee_bp": 30,
+        "type": "constant_product",
+        "total_trustlines": "1",
+        "total_shares": "0.0000000",
+        "reserves": [
+          {
+            "asset": "native",
+            "amount": "0.0000000"
+          },
+          {
+            "asset": "TEST:GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+            "amount": "0.0000000"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "cba85e7f34c2abc79961427f74fc43ff96d845fa646e62fac93af07f3e29fead",
+    "cursor": "transaction:24019574538137600",
+    "kind": "transaction",
+    "time": "2026-11-06T17:28:26Z",
+    "ledger": 5592493,
+    "data": {
+      "id": "cba85e7f34c2abc79961427f74fc43ff96d845fa646e62fac93af07f3e29fead",
+      "paging_token": "24019574538137600",
+      "successful": true,
+      "hash": "cba85e7f34c2abc79961427f74fc43ff96d845fa646e62fac93af07f3e29fead",
+      "ledger": 5592493,
+      "created_at": "2026-11-06T17:28:26Z",
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "source_account_sequence": "24019441394122766",
+      "fee_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "fee_charged": "100",
+      "max_fee": "100",
+      "operation_count": 1,
+      "envelope_xdr": "AAAAAgAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAAGQAVVWOAAAADgAAAAEAAAAAAAAAAAAAAABq7g5zAAAAAAAAAAEAAAAAAAAAFordDwOw9Pu+3mEfVZrE+1tPLlX2zf85wv5BnxKUuDUEAAAAAAX14QAAAAAABfXhAAAAAAEAAAAKAAAACgAAAAEAAAAAAAAAAXoUJUQAAABAb8KJikO6cKgN3Ta8RvR64n6Hp5CN5AlvBIQjfGVMNIIqUZJyuEkvTS7OB7dF5QPtC6FMhOyBRhSqK4oaZAvRBQ==",
+      "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAWAAAAAAAAAAA=",
+      "fee_meta_xdr": "AAAAAgAAAAMAVVWsAAAAAAAAAACQhsQsIDTTR55bJ9tZLTVBrmsSnXQF078UEDcdehQlRAAAABdAHqfsAFVVjgAAAA0AAAAEAAAAAAAAAAAAAAALZXhhbXBsZS5jb20AAQAAAAAAAAAAAAABAAAAAEeGjAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAABVVawAAAAAau4ONQAAAAAAAAABAFVVrQAAAAAAAAAAkIbELCA000eeWyfbWS01Qa5rEp10BdO/FBA3HXoUJUQAAAAXQB6niABVVY4AAAANAAAABAAAAAAAAAAAAAAAC2V4YW1wbGUuY29tAAEAAAAAAAAAAAAAAQAAAABHhowAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAVVWsAAAAAGruDjUAAAAA",
+      "memo_type": "none",
+      "signatures": [
+        "b8KJikO6cKgN3Ta8RvR64n6Hp5CN5AlvBIQjfGVMNIIqUZJyuEkvTS7OB7dF5QPtC6FMhOyBRhSqK4oaZAvRBQ=="
+      ],
+      "preconditions": {
+        "timebounds": {
+          "min_time": "0",
+          "max_time": "1793986163"
+        }
+      }
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "24019574538137601",
+    "cursor": "operation:24019574538137601",
+    "kind": "operation",
+    "time": "2026-11-06T17:28:26Z",
+    "ledger": 5592493,
+    "data": {
+      "id": "24019574538137601",
+      "paging_token": "24019574538137601",
+      "transaction_successful": true,
+      "source_account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "liquidity_pool_deposit",
+      "type_i": 22,
+      "created_at": "2026-11-06T17:28:26Z",
+      "transaction_hash": "cba85e7f34c2abc79961427f74fc43ff96d845fa646e62fac93af07f3e29fead",
+      "liquidity_pool_id": "8add0f03b0f4fbbede611f559ac4fb5b4f2e55f6cdff39c2fe419f1294b83504",
+      "reserves_max": [
+        {
+          "asset": "native",
+          "amount": "10.0000000"
+        },
+        {
+          "asset": "TEST:GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+          "amount": "10.0000000"
+        }
+      ],
+      "min_price": "0.1000000",
+      "min_price_r": {
+        "n": 1,
+        "d": 10
+      },
+      "max_price": "10.0000000",
+      "max_price_r": {
+        "n": 10,
+        "d": 1
+      },
+      "reserves_deposited": [
+        {
+          "asset": "native",
+          "amount": "10.0000000"
+        },
+        {
+          "asset": "TEST:GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+          "amount": "10.0000000"
+        }
+      ],
+      "shares_received": "10.0000000"
+    }
+  },
+  {
+    "source": "horizon-testnet",
+    "ref": "0024019574538137601-0000000001",
+    "cursor": "effect:24019574538137601-1",
+    "kind": "effect",
+    "time": "2026-11-06T17:28:26Z",
+    "ledger": 5592493,
+    "data": {
+      "id": "0024019574538137601-0000000001",
+      "paging_token": "24019574538137601-1",
+      "account": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "type": "liquidity_pool_deposited",
+      "type_i": 90,
+      "created_at": "2026-11-06T17:28:26Z",
+      "liquidity_pool": {
+        "id": "8add0f03b0f4fbbede611f559ac4fb5b4f2e55f6cdff39c2fe419f1294b83504",
+        "fee_bp": 30,
+        "type": "constant_product",
+        "total_trustlines": "1",
+        "total_shares": "10.0000000",
+        "reserves": [
+          {
+            "asset": "native",
+            "amount": "10.0000000"
+          },
+          {
+            "asset": "TEST:GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+            "amount": "10.0000000"
+          }
+        ]
+      },
+      "reserves_deposited": [
+        {
+          "asset": "native",
+          "amount": "10.0000000"
+        },
+        {
+          "asset": "TEST:GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC",
+          "amount": "10.0000000"
+        }
+      ],
+      "shares_received": "10.0000000"
+    }
+  }
+]
