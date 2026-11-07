@@ -17,4 +17,4 @@ Harassment, insults, discrimination, threats, sharing private information about 
 
 Maintainers may edit or remove comments, issues and contributions that break this code, and may restrict participation.
 
-> TODO(maintainer): before publishing, add a contact address or channel for conduct reports here.
+Report conduct problems to **chrisjacobs2468@gmail.com**. Reports are kept confidential.
