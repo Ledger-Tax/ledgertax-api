@@ -18,7 +18,7 @@ ledgertax-api only reads public data. It never holds, asks for, stores or logs a
 
 Please **do not open a public issue** for a vulnerability. Use the repository's private vulnerability reporting (the "Report a vulnerability" button under the Security tab) if it is enabled.
 
-> TODO(maintainer): before publishing this repository, enable private vulnerability reporting or add a security contact address here. Until then this file has no confirmed private channel.
+If that button is not available, email **chrisjacobs2468@gmail.com** with a subject starting "Security: ledgertax-api".
 
 Please include what you did, what you expected and what happened. Use testnet data only.
 
