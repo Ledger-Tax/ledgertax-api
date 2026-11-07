@@ -1,0 +1,145 @@
+{
+  "network": "testnet",
+  "recordedAt": "2026-11-06T17:29:03.138Z",
+  "horizon": "https://horizon-testnet.stellar.org",
+  "counterparties": {
+    "B": "GDT6CYG3KFLN5HVVFLVZI65LRVE2UYOF6XZAFIPIOXFLDI374QJ6X7VN",
+    "issuer": "GAJTAXBFXHV6OYBEJVOJYTRHJFYERKML6POTWPHL6FYOWHANJZ2IVIAC"
+  },
+  "files": [
+    {
+      "address": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR",
+      "file": "GCIINRBMEA2NGR46LMT5WWJNGVA242YSTV2ALU57CQIDOHL2CQSUJKYR.json",
+      "role": "main watched account",
+      "records": 91
+    },
+    {
+      "address": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX",
+      "file": "GDNTPHOXRNQPPOLOG7DIVTWWD7WDEPLQUVRH7AKRPEHRVGXZKQWEOOMX.json",
+      "role": "account that merged into the main account",
+      "records": 10
+    }
+  ],
+  "steps": [
+    {
+      "step": "payment out with a formula-looking memo",
+      "ok": true,
+      "hash": "c4a90e15ba0674dd0856c3f75800f8ca6a639f967cab77593b1503c294dc99fd"
+    },
+    {
+      "step": "payment in with a memo containing quotes and a comma",
+      "ok": true,
+      "hash": "45b4cd4ec541c28b9d4cc254cbb2c9050ea0eb2945580555c817c10bbe6da697"
+    },
+    {
+      "step": "create account (W funds M)",
+      "ok": true,
+      "hash": "c5dec905599a59888d5efa8f5e6ab5b1ca6b5f9581d89afa18bd3cbf880389ab"
+    },
+    {
+      "step": "account merge (M into W)",
+      "ok": true,
+      "hash": "1e512ea968c970777f4fc3158a51fc90593e92a1015b68b89779425bb73e47f7"
+    },
+    {
+      "step": "change trust W",
+      "ok": true,
+      "hash": "eef86ad2ff996a9883dec8a404c833f80a635970f3e595a488432cb0a862f59d"
+    },
+    {
+      "step": "change trust B",
+      "ok": true,
+      "hash": "f865082edd35398b2cc390a1ca6a44cea086295cfe2682e1af2dd12a0792b10c"
+    },
+    {
+      "step": "issuer pays W 1000 TEST",
+      "ok": true,
+      "hash": "7bcde8f34639272f024d42b77f65eb4e225b5a09e67abf9f9f2c5ba99f0d3b95"
+    },
+    {
+      "step": "issuer pays B 1000 TEST",
+      "ok": true,
+      "hash": "9e08a21cd1e08508d73c47dca8774b9fcf65beda7218ee44cf12264e94ecb560"
+    },
+    {
+      "step": "W manage sell offer (maker)",
+      "ok": true,
+      "hash": "fd50cbc98cfb002f52508edfd8934bdb5f60cceb189c36179c10c7e9b3d239d4"
+    },
+    {
+      "step": "B manage buy offer fills W (W is maker)",
+      "ok": true,
+      "hash": "d1398a7bf73414467e2df8bcbdac175789b58ca1fbbb2eacb11d208ddaf88a99"
+    },
+    {
+      "step": "B manage sell offer (maker)",
+      "ok": true,
+      "hash": "340e8faac9bbe9bb0201bb94f817ead4d3c3ad8b6894b1bedfb7bead2afd5b9b"
+    },
+    {
+      "step": "W manage buy offer fills B (W is taker)",
+      "ok": true,
+      "hash": "15a4dcea123d874fba9ddac64e71a32650c1ec3ed86d8193bc6ddab164d397a2"
+    },
+    {
+      "step": "issuer places liquidity offer",
+      "ok": true,
+      "hash": "282f97cd99bc745ebe2eaed66abe6ab73b703d080a9db6d290cc169692f93bea"
+    },
+    {
+      "step": "path payment strict send (W sends XLM, B receives TEST)",
+      "ok": true,
+      "hash": "f4a7c5d1e1065b40e8522c813c35f7f4f14a9760cf242d5e5a93fbd1dee84699"
+    },
+    {
+      "step": "path payment strict receive (W sends XLM, B receives TEST)",
+      "ok": true,
+      "hash": "39dedd14e88554657d4bfd8faee08486ea4690aea65699df779e15f46d06c949"
+    },
+    {
+      "step": "path payment strict send (B sends XLM, W receives TEST)",
+      "ok": true,
+      "hash": "0310e5c50ba7cf3a835c42a65f6e321ff4f4c06f942375446db7284cccbf9bd2"
+    },
+    {
+      "step": "W creates a claimable balance for B",
+      "ok": true,
+      "hash": "4c49108ac29ed54d288573e142055920a26bff9c58478a2312116e07da4b3ce2"
+    },
+    {
+      "step": "B claims W balance",
+      "ok": true,
+      "hash": "31664c7531316a6ca71149185c11af6ca5dfe32697c24908bb2cf560fc446201"
+    },
+    {
+      "step": "B creates a claimable balance for W",
+      "ok": true,
+      "hash": "783c4ba831352b5cd9f40d7ee9fa80a5be84fe6a4c961ee6d6dacf3b468ac02c"
+    },
+    {
+      "step": "W claims B balance",
+      "ok": true,
+      "hash": "98f354a3286767e905d85ec60ed6849fce1104664a6107324a04fcc14041a1ca"
+    },
+    {
+      "step": "fee bump (B pays the fee for W)",
+      "ok": true,
+      "hash": "1c90f660549c46ca4c69afb2c8500643f12d919df437a7f9eb1f710ff99caef3"
+    },
+    {
+      "step": "failed payment (underfunded)",
+      "ok": true,
+      "note": "failed as intended: {\"transaction\":\"tx_failed\",\"operations\":[\"op_underfunded\"]}"
+    },
+    {
+      "step": "set options (home domain)",
+      "ok": true,
+      "hash": "c9a3d397b7605a2a1664f668515e4171056fd3490591dc90be7f0abdf23b4b7e"
+    },
+    {
+      "step": "liquidity pool deposit (best effort)",
+      "ok": true,
+      "hash": "cba85e7f34c2abc79961427f74fc43ff96d845fa646e62fac93af07f3e29fead"
+    }
+  ]
+}

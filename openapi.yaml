@@ -1,0 +1,430 @@
+openapi: 3.1.0
+info:
+  title: Stellar Ledger Tax API
+  version: 0.0.0
+  description: |
+    Read-only API that classifies the public history of a Stellar address, calculates FIFO gains from
+    prices and labels supplied in the request, and produces CSV reports.
+
+    **Accounting export, not tax advice.**
+
+    The API never accepts, stores or logs a secret key (requests containing something shaped like
+    one are rejected). Labels and prices travel in the request and are never stored.
+servers:
+  - url: http://localhost:8787
+paths:
+  /health:
+    get:
+      operationId: getHealth
+      summary: Liveness check
+      responses:
+        '200':
+          description: The server is up.
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [status]
+                properties:
+                  status:
+                    type: string
+                    const: ok
+  /events:
+    get:
+      operationId: getEvents
+      summary: Classified events of an address
+      description: |
+        With `format=json` (default) returns all events at once. With `format=ndjson` streams one JSON
+        line per event as they are classified (`{"event": {...}}`), ending with `{"done": true, "count": n}`
+        or, if the source fails part-way, an error line `{"error": {...}}` that includes a resume `cursor`.
+        More than the server's event limit is refused with `history_too_large`; narrow the range with `since`.
+      parameters:
+        - name: address
+          in: query
+          required: true
+          description: A public Stellar address (G... or muxed M...). Never a secret key.
+          schema:
+            type: string
+        - name: since
+          in: query
+          required: false
+          description: Only history at or after this UTC date (YYYY-MM-DD) or time.
+          schema:
+            type: string
+        - name: format
+          in: query
+          required: false
+          schema:
+            type: string
+            enum: [json, ndjson]
+            default: json
+      responses:
+        '200':
+          description: The events.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EventsResponse'
+            application/x-ndjson:
+              schema:
+                type: string
+                description: One JSON object per line.
+        '400':
+          $ref: '#/components/responses/Error'
+        '404':
+          $ref: '#/components/responses/Error'
+        '422':
+          $ref: '#/components/responses/Error'
+        '429':
+          $ref: '#/components/responses/Error'
+        '502':
+          $ref: '#/components/responses/Error'
+  /reports:
+    post:
+      operationId: createReport
+      summary: Build a report (events, FIFO gains and two CSV files)
+      description: |
+        Prices come from `priceCsv` (header `asset,date,price,currency`) and meaning from `labels`; both
+        are used for this request only. A missing price is an error row, never a guess.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ReportRequest'
+            example:
+              address: GABC...
+              currency: USD
+              priceCsv: "asset,date,price,currency\nnative,2025-01-01,0.10,USD\n"
+              labels:
+                - eventId: '<txHash>:0:1'
+                  label: income
+      responses:
+        '200':
+          description: The report.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReportResponse'
+        '400':
+          $ref: '#/components/responses/Error'
+        '404':
+          $ref: '#/components/responses/Error'
+        '413':
+          $ref: '#/components/responses/Error'
+        '415':
+          $ref: '#/components/responses/Error'
+        '422':
+          $ref: '#/components/responses/Error'
+        '429':
+          $ref: '#/components/responses/Error'
+        '500':
+          $ref: '#/components/responses/Error'
+        '502':
+          $ref: '#/components/responses/Error'
+components:
+  responses:
+    Error:
+      description: An error. See `error.code`.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+  schemas:
+    ErrorResponse:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          properties:
+            code:
+              type: string
+              enum:
+                - secret_key_rejected
+                - invalid_address
+                - account_not_found
+                - invalid_price_csv
+                - price_csv_too_large
+                - history_too_large
+                - unsupported_method
+                - upstream_failed
+                - upstream_malformed
+                - invalid_request
+                - payload_too_large
+                - unsupported_media_type
+                - invalid_json
+                - rate_limited
+                - not_found
+                - internal_error
+            message:
+              type: string
+            details:
+              description: For `invalid_request` a list of {path, message}; for `invalid_price_csv` a list of {row, column?, message}.
+            cursor:
+              type: string
+              description: For `upstream_failed` after part of the history was read.
+    SourceInfo:
+      type: object
+      required: [description, range]
+      properties:
+        description:
+          type: string
+        range:
+          type: string
+          description: The history range the source covers. Older history is not included.
+    EventType:
+      type: string
+      enum:
+        - payment_in
+        - payment_out
+        - trade
+        - fee
+        - account_funded
+        - account_merged
+        - claimable_claimed
+        - unknown
+    Event:
+      type: object
+      required: [id, txHash, opIndex, ledger, time, type, address, raw]
+      properties:
+        id:
+          type: string
+        txHash:
+          type: string
+        opIndex:
+          type: integer
+          description: -1 for a fee event.
+        ledger:
+          type: integer
+        time:
+          type: string
+          description: UTC ISO time.
+        type:
+          $ref: '#/components/schemas/EventType'
+        address:
+          type: string
+        asset:
+          type: string
+          description: '"native" or "CODE:ISSUER".'
+        amount:
+          type: string
+          description: Smallest units as a decimal string. Divide by 10^decimals.
+        decimals:
+          type: integer
+        counterAsset:
+          type: string
+        counterAmount:
+          type: string
+        counterDecimals:
+          type: integer
+        counterparty:
+          type: string
+        memo:
+          type: string
+          description: Untrusted text from the chain.
+        opType:
+          type: string
+        direction:
+          type: string
+          enum: [in, out]
+        raw:
+          type: object
+          required: [source, ref]
+          properties:
+            source:
+              type: string
+            ref:
+              type: string
+    EventsResponse:
+      type: object
+      required: [address, source, count, events]
+      properties:
+        address:
+          type: string
+        source:
+          $ref: '#/components/schemas/SourceInfo'
+        count:
+          type: integer
+        events:
+          type: array
+          items:
+            $ref: '#/components/schemas/Event'
+    Label:
+      type: object
+      required: [eventId, label]
+      properties:
+        eventId:
+          type: string
+        label:
+          type: string
+          enum: [income, disposal, transfer, gift, ignore]
+        note:
+          type: string
+          maxLength: 500
+    ReportRequest:
+      type: object
+      required: [address, currency]
+      additionalProperties: false
+      properties:
+        address:
+          type: string
+        since:
+          type: string
+        method:
+          type: string
+          enum: [fifo]
+          default: fifo
+        currency:
+          type: string
+          pattern: '^[A-Z]{3}$'
+        fiatDecimals:
+          type: integer
+          minimum: 0
+          maximum: 8
+          default: 2
+        priceCsv:
+          type: string
+          description: Header must be exactly asset,date,price,currency.
+        labels:
+          type: array
+          maxItems: 50000
+          items:
+            $ref: '#/components/schemas/Label'
+    ReportResponse:
+      type: object
+      required:
+        [
+          address,
+          generatedAt,
+          method,
+          currency,
+          fiatDecimals,
+          source,
+          counts,
+          totals,
+          gains,
+          issues,
+          warnings,
+          files,
+        ]
+      properties:
+        address:
+          type: string
+        generatedAt:
+          type: string
+        method:
+          type: string
+          enum: [fifo]
+        currency:
+          type: string
+        fiatDecimals:
+          type: integer
+        source:
+          $ref: '#/components/schemas/SourceInfo'
+        counts:
+          type: object
+          required: [events, unknownEvents, gains, issues]
+          properties:
+            events:
+              type: integer
+            unknownEvents:
+              type: integer
+            gains:
+              type: integer
+            issues:
+              type: integer
+        totals:
+          type: object
+          required: [gain]
+          properties:
+            gain:
+              type: string
+        gains:
+          type: array
+          items:
+            type: object
+            required:
+              [
+                acquiredAt,
+                disposedAt,
+                asset,
+                quantity,
+                proceeds,
+                costBasis,
+                gain,
+                holdingDays,
+                currency,
+                disposalEventId,
+                acquisitionEventId,
+              ]
+            properties:
+              acquiredAt:
+                type: string
+              disposedAt:
+                type: string
+              asset:
+                type: string
+              quantity:
+                type: string
+              proceeds:
+                type: string
+              costBasis:
+                type: string
+              gain:
+                type: string
+              holdingDays:
+                type: integer
+              currency:
+                type: string
+              disposalEventId:
+                type: string
+              acquisitionEventId:
+                type: string
+        issues:
+          type: array
+          description: Things that could not be calculated. Shown as error rows in gains.csv.
+          items:
+            type: object
+            required: [code, eventId, time, message]
+            properties:
+              code:
+                type: string
+                enum:
+                  [
+                    missing_price,
+                    insufficient_lots,
+                    unknown_cost_basis,
+                    invalid_label,
+                    missing_amount,
+                  ]
+              eventId:
+                type: string
+              time:
+                type: string
+              asset:
+                type: string
+              quantity:
+                type: string
+              message:
+                type: string
+        warnings:
+          type: array
+          items:
+            type: object
+            required: [asset, quantity]
+            properties:
+              asset:
+                type: string
+              quantity:
+                type: string
+        files:
+          type: object
+          required: [eventsCsv, gainsCsv]
+          description: Both files start with "# Accounting export, not tax advice."
+          properties:
+            eventsCsv:
+              type: string
+            gainsCsv:
+              type: string
