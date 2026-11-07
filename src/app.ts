@@ -11,8 +11,8 @@ import {
   StreamInterruptedError,
   isLikelySecretKey,
   parseStellarAddress,
-} from 'ledgertax-core';
-import type { HistorySource } from 'ledgertax-core';
+} from '@veronicdev/ledgertax-core';
+import type { HistorySource } from '@veronicdev/ledgertax-core';
 import { z } from 'zod';
 import { UnsupportedMethodError } from './costbasis.js';
 import { HistoryTooLargeError, PriceCsvError, PriceCsvTooLargeError } from './errors.js';

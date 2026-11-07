@@ -1,5 +1,5 @@
-import { classifyAccount, parseStellarAddress } from 'ledgertax-core';
-import type { HistorySource, Label, LedgerEvent } from 'ledgertax-core';
+import { classifyAccount, parseStellarAddress } from '@veronicdev/ledgertax-core';
+import type { HistorySource, Label, LedgerEvent } from '@veronicdev/ledgertax-core';
 import { computeCostBasis } from './costbasis.js';
 import type { CostBasisMethod } from './costbasis.js';
 import { HistoryTooLargeError } from './errors.js';

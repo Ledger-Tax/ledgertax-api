@@ -1,6 +1,6 @@
 import { CachedSource, MemoryHistoryStore, SqliteHistoryStore } from './cache.js';
 import type { HistoryStore } from './cache.js';
-import { HorizonSource } from 'ledgertax-core';
+import { HorizonSource } from '@veronicdev/ledgertax-core';
 import { createApp } from './app.js';
 import { loadConfig } from './config.js';
 import type { SourceInfo } from './service.js';

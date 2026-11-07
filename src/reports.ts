@@ -1,4 +1,4 @@
-import type { Label, LedgerEvent } from 'ledgertax-core';
+import type { Label, LedgerEvent } from '@veronicdev/ledgertax-core';
 import type { CostBasisResult, GainRow, IssueRow } from './costbasis.js';
 import { DISCLAIMER, writeCsv } from './csv-write.js';
 import type { Column } from './csv-write.js';

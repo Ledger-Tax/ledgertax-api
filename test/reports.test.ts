@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import type { Label, LedgerEvent } from 'ledgertax-core';
+import type { Label, LedgerEvent } from '@veronicdev/ledgertax-core';
 import { computeCostBasis } from '../src/costbasis.js';
 import {
   DISCLAIMER,

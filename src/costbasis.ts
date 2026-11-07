@@ -1,5 +1,5 @@
-import { LedgerTaxError } from 'ledgertax-core';
-import type { Label, LedgerEvent } from 'ledgertax-core';
+import { LedgerTaxError } from '@veronicdev/ledgertax-core';
+import type { Label, LedgerEvent } from '@veronicdev/ledgertax-core';
 import { fiatValue, formatUnits, proportion } from './money.js';
 import type { PriceTable } from './prices.js';
 

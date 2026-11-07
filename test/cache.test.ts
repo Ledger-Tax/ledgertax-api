@@ -2,8 +2,8 @@ import { mkdtemp, readFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
-import { classifyAccount } from 'ledgertax-core';
-import type { RawRecord } from 'ledgertax-core';
+import { classifyAccount } from '@veronicdev/ledgertax-core';
+import type { RawRecord } from '@veronicdev/ledgertax-core';
 import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 import {
   CachedSource,
