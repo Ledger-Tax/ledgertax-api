@@ -107,3 +107,29 @@ jobs:
       - uses: actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294 # v5.0.0
         with:
           fail-on-severity: moderate
+
+  # Looks for signs of the PolinRider malware campaign (see .github/scripts/scan-malware.sh):
+  # in the files, in the whole git history, and in the dependencies. Dependencies are
+  # installed with --ignore-scripts so none of their code runs before it is scanned.
+  malware-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Scanner self-test
+        run: bash .github/scripts/scan-malware.sh --self-test
+      - name: Scan files and git history
+        run: bash .github/scripts/scan-malware.sh
+      - uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+        with:
+          version: 12
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24
+      - name: Install dependencies without running their scripts
+        run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Scan installed dependencies
+        run: bash .github/scripts/scan-malware.sh --deps
