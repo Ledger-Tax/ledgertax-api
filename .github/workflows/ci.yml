@@ -16,6 +16,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Lint, typecheck, test and build on the main Node version.
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 20
@@ -35,3 +36,74 @@ jobs:
       - run: pnpm typecheck
       - run: pnpm test
       - run: pnpm build
+
+  # The package supports Node 22 (see "engines"); prove it.
+  node-22:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+        with:
+          version: 12
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm build
+
+  # Fails when any installed dependency has a known high or critical advisory.
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+        with:
+          version: 12
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24
+      - run: pnpm audit --audit-level high
+
+  # The project never handles secret keys. Fail if anything shaped like a Stellar secret key
+  # (S followed by 55 base32 characters) is committed. The match itself is not printed.
+  secrets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: No Stellar secret keys in tracked files
+        run: |
+          set +e
+          found=$(git grep -lIE '(^|[^A-Z2-7])S[A-Z2-7]{55}([^A-Z2-7]|$)')
+          rc=$?
+          set -e
+          if [ "$rc" -eq 0 ]; then
+            echo "::error::Text shaped like a Stellar secret key was found in:"
+            echo "$found"
+            exit 1
+          elif [ "$rc" -ne 1 ]; then
+            echo "::error::The secret-key search failed (exit $rc)."
+            exit 1
+          fi
+          echo "No secret-key-shaped text found."
+
+  # On pull requests: block new dependencies with known vulnerabilities.
+  dependency-review:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294 # v5.0.0
+        with:
+          fail-on-severity: moderate
