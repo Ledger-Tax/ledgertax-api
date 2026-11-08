@@ -1,0 +1,8 @@
+# Keeps the pinned GitHub Actions up to date: Dependabot opens a pull request when a new
+# release appears, and it has to pass CI like any other change.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
